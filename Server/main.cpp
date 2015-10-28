@@ -21,29 +21,15 @@ void				server()
   return ;
 }
 
-void				test(std::string& str1, std::string& str2) 
+int		main(int ac, char **av)
 {
-  std::cout << str1 << std::endl;
-  std::cout << str2 << std::endl;
+  if (ac != 3) {
+    std::cout << "Usage : server [Port]" << std::endl;
+    return (-1);
+  }
+
   
-  std::string chaine = str1 + str2;
-  
-  std::cout << chaine << std::endl;
-
-  return ;
-}
-
-int		main()
-{
-  boost::array<int, 4> arr = {{1,2,3,4}};
-  std::cout << "Hi" << arr[3] << std::endl;
-
-  std::string str1 = "NIKE";
- std::string str2 = "TAMER";
-
- test((str1), (str2));
 
  server();
- 
  return 1;
 }

@@ -1,4 +1,5 @@
-# EIP---HTTPS_SRV
+# EIP
 
-HTTPS Server 
+Team Core/API
+- HTTPS Server & Client
 

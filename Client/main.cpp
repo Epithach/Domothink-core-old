@@ -32,7 +32,7 @@ int		main(int ac, char **av)
   int		port;	
 
   if (ac != 3) {
-    std::cout << "Usage : server [IP Adress] [Port]" << std::endl;
+    std::cout << "Usage : client [IP Adress] [Port]" << std::endl;
     return (-1);
   }
 
