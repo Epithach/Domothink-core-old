@@ -2,6 +2,7 @@
 #include <ostream>
 #include <boost/asio.hpp>
 #include <boost/array.hpp>
+#include "./include/exception.hpp"
 
 int					client()
 {
@@ -34,8 +35,13 @@ int		main(int ac, char **av)
   if (ac != 3) {
     std::cout << "Usage : client [IP Adress] [Port]" << std::endl;
     return (-1);
-  }
-
-  client();
+  } 
+  try {
+    client();
+  } catch (const Exception &e)
+    {
+      std::cout << "Une erreur est survenue :" << std::endl;
+      std::cout << e.getMessage() << std::endl;
+    }
   return 1;
 }

@@ -2,6 +2,7 @@
 #include <ostream>
 #include <boost/asio.hpp>
 #include <boost/array.hpp>
+#include "./include/exception.hpp"
 
 using boost::asio::ip::tcp;
 
@@ -27,9 +28,12 @@ int		main(int ac, char **av)
     std::cout << "Usage : server [Port]" << std::endl;
     return (-1);
   }
-
-  
-
- server();
- return 1;
+  try {
+    server();
+  } catch (const Exception &e)
+    {   
+      std::cout << "Une erreur est survenue :" << std::endl;
+      std::cout << e.getMessage() << std::endl;
+    }
+  return 1;
 }
