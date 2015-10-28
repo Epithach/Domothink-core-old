@@ -26,7 +26,7 @@ int		main(int ac, char **av)
 {
   int		port;
   if (ac != 2) {
-    std::cout << "Usage : server [Port]" << std::endl;
+    std::cerr << "Usage : server [Port]" << std::endl;
     return (-1);
   }
   try {
@@ -34,8 +34,8 @@ int		main(int ac, char **av)
     server(port);
   } catch (const Exception &e)
     {   
-      std::cout << "Une erreur est survenue :" << std::endl;
-      std::cout << e.getMessage() << std::endl;
+      std::cerr << "Une erreur est survenue :" << std::endl
+      << e.getMessage() << std::endl;
     }
   return 1;
 }
