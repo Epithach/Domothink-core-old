@@ -3,11 +3,12 @@
 #include <boost/asio.hpp>
 #include <boost/array.hpp>
 #include "./include/exception.hpp"
+#include "./include/utils.hpp"
 
-int					client()
+int					client(std::string ip, int port)
 {
   boost::asio::io_service		ios;
-  boost::asio::ip::tcp::endpoint	endpoint(boost::asio::ip::address::from_string("127.0.0.1"), 7171);
+  boost::asio::ip::tcp::endpoint	endpoint(boost::asio::ip::address::from_string(ip), port);
   boost::asio::ip::tcp::socket		socket(ios);
   boost::array<char, 128>		buf;
   boost::system::error_code		error;
@@ -18,7 +19,7 @@ int					client()
     socket.read_some(boost::asio::buffer(buf), error);
     
     if (error == boost::asio::error::eof)  {
-      std::cout << "Deco" << std::endl;
+      std::cout << "Déconnexion" << std::endl;
       break;
     }
     
@@ -37,7 +38,9 @@ int		main(int ac, char **av)
     return (-1);
   } 
   try {
-    client();
+    ip = std::string(av[1]);
+    port = my_atoi(av[2]);
+    client(ip, port);
   } catch (const Exception &e)
     {
       std::cout << "Une erreur est survenue :" << std::endl;
