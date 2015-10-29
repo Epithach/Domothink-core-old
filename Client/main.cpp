@@ -34,7 +34,7 @@ int		main(int ac, char **av)
   int		port;	
 
   if (ac != 3) {
-    std::cout << "Usage : client [IP Adress] [Port]" << std::endl;
+    std::cerr << "Usage : client [IP Adress] [Port]" << std::endl;
     return (-1);
   } 
   try {
@@ -43,8 +43,8 @@ int		main(int ac, char **av)
     client(ip, port);
   } catch (const Exception &e)
     {
-      std::cout << "Une erreur est survenue :" << std::endl;
-      std::cout << e.getMessage() << std::endl;
+      std::cerr << "Une erreur est survenue :" << std::endl;
+      std::cerr << e.getMessage() << std::endl;
     }
   return 1;
 }
