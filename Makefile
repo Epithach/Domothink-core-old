@@ -9,6 +9,7 @@ SRC_SERVER	= ./Server/main.cpp \
 SRC_CLIENT	= ./Client/main.cpp \
 		  ./Client/utils.cpp \
 		  ./Client/exception.cpp \
+		  ./Client/client.cpp \
 
 OBJ_SERVER	= $(SRC_SERVER:.cpp=.o)
 
