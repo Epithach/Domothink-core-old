@@ -73,8 +73,9 @@ int					Client::getFd() const {
  */
 
 int					Client::run() {
+  boost::asio::io_service		ios;
   boost::asio::ip::tcp::endpoint	endpoint(boost::asio::ip::address::from_string(this->Ip_),this->Port_);
-  boost::asio::ip::tcp::socket		socket(this->Ios_);
+  boost::asio::ip::tcp::socket		socket(/* Ios_ */ios);
   boost::array<char, 128>		buf;
   boost::system::error_code		error;
   int					len;
@@ -88,7 +89,7 @@ int					Client::run() {
       break ;
     }
 
-    //std::cout.write(buf.data(), len);
+    std::cout.write(buf.data(), len);
   }
   return 1;
 }

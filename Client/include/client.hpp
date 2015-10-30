@@ -7,7 +7,7 @@
 
 class					Client {
 private:
-  boost::asio::io_service               Ios_;
+  //boost::asio::io_service               Ios_;
   //boost::asio::ip::tcp::endpoint        endpoint(boost::asio::ip::address::from_string(ip), port);
   //boost::asio::ip::tcp::socket          socket(ios);
   int					Port_;

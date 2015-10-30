@@ -5,6 +5,7 @@ NAME_CLIENT	= client
 SRC_SERVER	= ./Server/main.cpp \
 		  ./Server/utils.cpp \
 		  ./Server/exception.cpp \
+		  ./Server/server.cpp \
 
 SRC_CLIENT	= ./Client/main.cpp \
 		  ./Client/utils.cpp \
