@@ -1,37 +1,64 @@
+
+################
+# Server Rules #
+################
+
 NAME_SERVER	= server
 
-NAME_CLIENT	= client
+INC_SERVER	= ./Server/include
 
-SRC_SERVER	= ./Server/main.cpp \
-		  ./Server/utils.cpp \
-		  ./Server/exception.cpp \
-		  ./Server/server.cpp \
-
-SRC_CLIENT	= ./Client/main.cpp \
-		  ./Client/utils.cpp \
-		  ./Client/exception.cpp \
-		  ./Client/client.cpp \
+SRC_SERVER	= ./Server/main.cpp			\
+			  ./Server/utils.cpp		\
+			  ./Server/exception.cpp	\
+			  ./Server/server.cpp		\
 
 OBJ_SERVER	= $(SRC_SERVER:.cpp=.o)
 
+################
+# Client Rules #
+################
+
+NAME_CLIENT	= client
+
+INC_CLIENT	= ./Client/include
+
+SRC_CLIENT	= ./Client/main.cpp			\
+			  ./Client/utils.cpp		\
+			  ./Client/exception.cpp	\
+			  ./Client/client.cpp		\
+
 OBJ_CLIENT	= $(SRC_CLIENT:.cpp=.o)
 
-GPP		= g++
+######################
+# Compilations Rules #
+######################
 
-RM		= rm -rf
+RM			= rm -rf
 
-FLAG		= -lboost_system -lpthread -lboost_filesystem -lboost_thread ##-Werror -W -Wall -Wextra -lm
+CXX			= cl ##g++
 
-all:		$(NAME_CLIENT) $(NAME_SERVER)
+CXXFLAGS	= -W -Wall -Wextra -Werror
+
+LDFLAGS		= -lboost_system -lpthread -lboost_filesystem -lboost_thread
+
+###########
+# Targets #
+###########
+
+all : $(NAME_SERVER) $(NAME_CLIENT)
 
 $(NAME_SERVER) :	$(OBJ_SERVER)
-	$(GPP) -o $(NAME_SERVER) $(OBJ_SERVER) $(FLAG)
+	$(CXX) -o $(NAME_SERVER) $(OBJ_SERVER) $(LDFLAGS)
+
 $(NAME_CLIENT) :	$(OBJ_CLIENT)
-	$(GPP) -o $(NAME_CLIENT) $(OBJ_CLIENT) $(FLAG)
+	$(CXX) -o $(NAME_CLIENT) $(OBJ_CLIENT) $(LDFLAGS)
+
 clean :
 	$(RM) $(OBJ_SERVER) $(OBJ_CLIENT)
+
 fclean : clean
 	$(RM) $(NAME_SERVER) $(NAME_CLIENT)
+
 re : all clean
 
 .PHONY : all re clean fclean

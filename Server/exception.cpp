@@ -1,4 +1,4 @@
-#include "./include/exception.hpp"
+#include "exception.h"
 
 Exception::Exception(std::string const& msg) throw():  msg(msg) {
 }
