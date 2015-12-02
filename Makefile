@@ -11,6 +11,7 @@ SRC_SERVER	= .\Server\main.cpp			\
 			  .\Server\utils.cpp		\
 			  .\Server\exception.cpp	\
 			  .\Server\server.cpp		\
+			  .\test\mysql\mysql.cpp    \
 
 OBJ_SERVER	= $(SRC_SERVER:.cpp=.obj)
 
@@ -32,13 +33,18 @@ CPP			= cl
 # /c		: only built .obj file (do not link them)
 CPPFLAGS	= /EHsc \
 						/I .\deps\boost_1_59_0 /I .\Server\include	\
+						/I .\test\mysql\mysql-connector-c++-1.1.6 \
 						/D_WIN32_WINNT=0x0501 \
+						/MD .\test\mysql\mysql-connector-c++-1.1.6\libmysql\libmysql.dll \
+						/MD .\test\mysql\mysql-connector-c++-1.1.6\libmysqlcppconn\mysqlcppconn.dll \
 						/Wall \
 						/c
 
 # /WX	: treat all the linker warnings as errors
 LDFLAGS		= /WX \
-						/link /LIBPATH:.\deps\boost_1_59_0\lib32-msvc-14.0
+						/link /LIBPATH:.\deps\boost_1_59_0\lib32-msvc-14.0 \
+						/LIBPATH:.\test\mysql\mysql-connector-c++-1.1.6\libmysql \
+						/LIBPATH:.\test\mysql\mysql-connector-c++-1.1.6\libmysqlcppconn
 
 # /Fo	: change name of the target (equivalent of the -o option, except that the
 #				name is stick with the option)
