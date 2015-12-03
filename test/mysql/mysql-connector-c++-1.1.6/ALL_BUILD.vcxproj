@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{77256AD9-15C8-3B08-AC8A-22F87BBE9697}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Maxime\GIT\EIP---HTTPS_SRV\deps\boost_1_59_0;C:\Program Files (x86)\MySQL\MySQL Server 5.7\include;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cppconn;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\driver\nativeapi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Maxime\GIT\EIP---HTTPS_SRV\deps\boost_1_59_0;C:\Program Files (x86)\MySQL\MySQL Server 5.7\include;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cppconn;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\driver\nativeapi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Maxime\GIT\EIP---HTTPS_SRV\deps\boost_1_59_0;C:\Program Files (x86)\MySQL\MySQL Server 5.7\include;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cppconn;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\driver\nativeapi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Maxime\GIT\EIP---HTTPS_SRV\deps\boost_1_59_0;C:\Program Files (x86)\MySQL\MySQL Server 5.7\include;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cppconn;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\driver\nativeapi;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6 -BC:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6 --check-stamp-file C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeLists.txt;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeLists.txt;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeCCompiler.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\VersionInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\driver\version_info.h.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindBoost.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\FindMySQL.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cmake\getmysqlversion.c;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cppconn\version_info.h.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6 -BC:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6 --check-stamp-file C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeLists.txt;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeLists.txt;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeCCompiler.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\VersionInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\driver\version_info.h.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindBoost.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\FindMySQL.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cmake\getmysqlversion.c;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cppconn\version_info.h.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6 -BC:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6 --check-stamp-file C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeLists.txt;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeLists.txt;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeCCompiler.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\VersionInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\driver\version_info.h.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindBoost.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\FindMySQL.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cmake\getmysqlversion.c;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cppconn\version_info.h.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6 -BC:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6 --check-stamp-file C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeLists.txt;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeLists.txt;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeCCompiler.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\VersionInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\GNUInstallDirs.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\driver\version_info.h.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindBoost.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckTypeSize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFileCXX.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\FindMySQL.cmake;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cmake\getmysqlversion.c;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\cppconn\version_info.h.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPack.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CPackComponent.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Templates\CPackConfig.cmake.in;C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/ZERO_CHECK.vcxproj">
+      <Project>B1784D09-E1ED-3B6B-95E9-B2A65C2A3949</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/CJUnitTestsPort/CJUnitTestsPort.vcxproj">
+      <Project>D8802D18-DC49-3BE7-91EF-3AA6482CAC99</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/template_bug_group/bug123.vcxproj">
+      <Project>91F840CD-68E1-3702-9398-665A6E6DA150</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/template_bug_group/bug456.vcxproj">
+      <Project>674823E1-C76C-3C66-86A1-0A803F20ED51</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/examples/connect.vcxproj">
+      <Project>1765F84B-1394-3E04-B42A-38B942D4B7E2</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/examples/connection_meta_schemaobj.vcxproj">
+      <Project>188178FD-8770-3229-928F-113D94A9E55A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/examples/debug_output.vcxproj">
+      <Project>CEB1F0FF-347B-3C9F-BFB6-D928B523AEB8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/driver_test.vcxproj">
+      <Project>8773A1F9-E570-3D31-9FD6-3A0734AD7A70</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/examples/dynamic_load.vcxproj">
+      <Project>2F5E392D-4F30-3E68-8E2B-96DC6DB92D81</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/example/example.vcxproj">
+      <Project>47894CED-5B30-3235-8404-EA03F6F07BF5</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/examples/exceptions.vcxproj">
+      <Project>FC9340E8-08CC-3CF8-A8A9-95B4795F0B07</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/driver/mysqlcppconn.vcxproj">
+      <Project>0C492C42-CBC2-3F2C-859C-31811D29BC5E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/driver/mysqlcppconn-static.vcxproj">
+      <Project>4F9D024D-33DB-3EE4-96FD-942B93A149A9</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/performance/perf_statement.vcxproj">
+      <Project>6817BDD4-0B6C-3F01-850F-813C2196652D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/examples/prepared_statement.vcxproj">
+      <Project>42440FC2-4122-3204-BA5F-55BC34F11F70</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/examples/resultset.vcxproj">
+      <Project>3BD09D2E-46F0-32F2-9A47-2ECE8244562B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/examples/resultset_binary.vcxproj">
+      <Project>BAA5E7DE-8E00-3626-B7E2-809A380A5384</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/examples/resultset_meta.vcxproj">
+      <Project>B017D7D3-BC96-338E-B4A0-8EE44B478F62</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/examples/resultset_types.vcxproj">
+      <Project>A7CA8CEB-8018-38DB-9E3F-7D898943CFD6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/examples/statement.vcxproj">
+      <Project>AC85298B-86E7-32D2-B470-7F01DA9FD0E6</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/static_test.vcxproj">
+      <Project>AECC312C-B3FE-3D20-92CA-04854AF27F83</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/test_art_resultset.vcxproj">
+      <Project>68F227DE-C3B6-3C97-98D3-8C41B6F33944</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/test_connection.vcxproj">
+      <Project>C6F2DA0E-7DA8-37AD-A55E-8091A81C2ADA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/test_databasemetadata.vcxproj">
+      <Project>98E9E94E-9C26-3932-9BF1-43173018224F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/framework/test_framework.vcxproj">
+      <Project>2246A89D-BEA0-398F-BF6F-9601F1DA5D54</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/test_parametermetadata.vcxproj">
+      <Project>790E8D5A-5948-3620-A8B6-C1ECCB9FDAFE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/test_preparedstatement.vcxproj">
+      <Project>11E85134-3FA4-3C25-B506-CB398E62946A</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/test_resultset.vcxproj">
+      <Project>0EB722BF-AA20-3B39-9DE9-C8E65266C8B1</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/test_resultsetmetadata.vcxproj">
+      <Project>162D1BBC-DDF4-3C42-B5ED-2CF8403D7D8C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/test_savepoint.vcxproj">
+      <Project>DF7F32DE-9242-398B-800B-1825EFDD3336</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/test_statement.vcxproj">
+      <Project>1D2280A3-4B53-37BD-A643-8BA7BB9C7240</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/test_uri.vcxproj">
+      <Project>50214CE8-3884-3D0D-B24B-FE030655B1E8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/test_variant.vcxproj">
+      <Project>D8FE76F5-041A-370D-A6F6-AE484ACB5E89</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/bugs/unsorted_bugs.vcxproj">
+      <Project>F57F846E-2EE8-3F45-BD0F-4E5B0176D0DA</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

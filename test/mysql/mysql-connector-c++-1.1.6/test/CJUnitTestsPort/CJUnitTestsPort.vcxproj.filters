@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\ccpptests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\BaseTestFixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\common\stringutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\regression\EscapeProcessorRegressionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\ConnectionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\DatabaseMetaDataTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\StatementTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\ResultSetMetadataTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\PreparedStatementTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\simple\BlobTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\regression\BlobRegressionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\regression\PreparedStatementRegressionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\simple\TransactionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\regression\SubqueriesRegressionTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\UnbufferedRsStmtTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\BaseTestFixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\common\stringutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\regression\EscapeProcessorRegressionTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\ConnectionTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\DatabaseMetaDataTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\StatementTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\ResultSetMetadataTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\PreparedStatementTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\simple\BlobTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\regression\BlobRegressionTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\regression\PreparedStatementRegressionTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\simple\TransactionTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\regression\SubqueriesRegressionTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\compliance\UnbufferedRsStmtTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\CJUnitTestsPort\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{161B4AF5-73B5-3080-A4DE-F5A31C0D0C17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{18A0C7B3-94C9-321E-BA20-CA207EAF6A0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

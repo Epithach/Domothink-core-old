@@ -1,0 +1,1396 @@
+The system is: Windows - 10.0.10240 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 16:50:31.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CompilerIdC\CompilerIdC.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "Debug\".
+  Cr‚ation du r‚pertoire "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "Debug\CompilerIdC.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Suppression du fichier "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CompilerIdC\CompilerIdC.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:05.11
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 16:50:37.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CompilerIdCXX\CompilerIdCXX.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "Debug\".
+  Cr‚ation du r‚pertoire "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "Debug\CompilerIdCXX.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Suppression du fichier "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\3.4.0\CompilerIdCXX\CompilerIdCXX.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.76
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3c803.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 16:50:38.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_3c803.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_3c803.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_3c803.dir\Debug\cmTC_3c803.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_3c803.dir\Debug\cmTC_3c803.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c803.dir\Debug\\" /Fd"cmTC_3c803.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c803.dir\Debug\\" /Fd"cmTC_3c803.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_3c803.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_3c803.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_3c803.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_3c803.dir\Debug\testCCompiler.obj
+  cmTC_3c803.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_3c803.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_3c803.dir\Debug\cmTC_3c803.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_3c803.dir\Debug\cmTC_3c803.tlog\cmTC_3c803.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_3c803.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:01.28
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1114f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 16:50:40.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_1114f.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_1114f.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_1114f.dir\Debug\cmTC_1114f.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_1114f.dir\Debug\cmTC_1114f.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1114f.dir\Debug\\" /Fd"cmTC_1114f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1114f.dir\Debug\\" /Fd"cmTC_1114f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_1114f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_1114f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_1114f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_1114f.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_1114f.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_1114f.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_1114f.dir\Debug\cmTC_1114f.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_1114f.dir\Debug\cmTC_1114f.tlog\cmTC_1114f.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_1114f.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.75
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a0c41.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 16:50:41.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_a0c41.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_a0c41.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_a0c41.dir\Debug\cmTC_a0c41.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_a0c41.dir\Debug\cmTC_a0c41.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a0c41.dir\Debug\\" /Fd"cmTC_a0c41.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a0c41.dir\Debug\\" /Fd"cmTC_a0c41.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_a0c41.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_a0c41.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_a0c41.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_a0c41.dir\Debug\testCXXCompiler.obj
+  cmTC_a0c41.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_a0c41.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_a0c41.dir\Debug\cmTC_a0c41.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_a0c41.dir\Debug\cmTC_a0c41.tlog\cmTC_a0c41.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_a0c41.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.82
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e554f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 16:50:42.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_e554f.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_e554f.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_e554f.dir\Debug\cmTC_e554f.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_e554f.dir\Debug\cmTC_e554f.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e554f.dir\Debug\\" /Fd"cmTC_e554f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e554f.dir\Debug\\" /Fd"cmTC_e554f.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_e554f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_e554f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_e554f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_e554f.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_e554f.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_e554f.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_e554f.dir\Debug\cmTC_e554f.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_e554f.dir\Debug\cmTC_e554f.tlog\cmTC_e554f.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_e554f.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.72
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_410bd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 16:50:43.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_410bd.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_410bd.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_410bd.dir\Debug\cmTC_410bd.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_410bd.dir\Debug\cmTC_410bd.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_410bd.dir\Debug\\" /Fd"cmTC_410bd.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\feature_tests.cxx"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_410bd.dir\Debug\\" /Fd"cmTC_410bd.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_410bd.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_410bd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_410bd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_410bd.dir\Debug\feature_tests.obj
+  cmTC_410bd.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_410bd.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_410bd.dir\Debug\cmTC_410bd.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_410bd.dir\Debug\cmTC_410bd.tlog\cmTC_410bd.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_410bd.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.80
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if files stdint.h exist passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a6e88.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:24.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_a6e88.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_a6e88.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_a6e88.dir\Debug\cmTC_a6e88.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_a6e88.dir\Debug\cmTC_a6e88.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6e88.dir\Debug\\" /Fd"cmTC_a6e88.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6e88.dir\Debug\\" /Fd"cmTC_a6e88.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_a6e88.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_a6e88.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_a6e88.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_a6e88.dir\Debug\CheckIncludeFiles.obj
+  cmTC_a6e88.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_a6e88.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_a6e88.dir\Debug\cmTC_a6e88.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_a6e88.dir\Debug\cmTC_a6e88.tlog\cmTC_a6e88.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_a6e88.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:02.35
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ebe2c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:27.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_ebe2c.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_ebe2c.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_ebe2c.dir\Debug\cmTC_ebe2c.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_ebe2c.dir\Debug\cmTC_ebe2c.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ebe2c.dir\Debug\\" /Fd"cmTC_ebe2c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ebe2c.dir\Debug\\" /Fd"cmTC_ebe2c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_ebe2c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_ebe2c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_ebe2c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_ebe2c.dir\Debug\CheckIncludeFiles.obj
+  cmTC_ebe2c.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_ebe2c.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_ebe2c.dir\Debug\cmTC_ebe2c.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_ebe2c.dir\Debug\cmTC_ebe2c.tlog\cmTC_ebe2c.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_ebe2c.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.74
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fa66b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:28.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_fa66b.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_fa66b.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_fa66b.dir\Debug\cmTC_fa66b.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_fa66b.dir\Debug\cmTC_fa66b.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa66b.dir\Debug\\" /Fd"cmTC_fa66b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa66b.dir\Debug\\" /Fd"cmTC_fa66b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_fa66b.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_fa66b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_fa66b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_fa66b.dir\Debug\CheckIncludeFile.obj
+  cmTC_fa66b.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_fa66b.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_fa66b.dir\Debug\cmTC_fa66b.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_fa66b.dir\Debug\cmTC_fa66b.tlog\cmTC_fa66b.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_fa66b.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.70
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a7eb5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:28.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_a7eb5.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_a7eb5.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_a7eb5.dir\Debug\cmTC_a7eb5.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_a7eb5.dir\Debug\cmTC_a7eb5.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7eb5.dir\Debug\\" /Fd"cmTC_a7eb5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7eb5.dir\Debug\\" /Fd"cmTC_a7eb5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_a7eb5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_a7eb5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_a7eb5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_a7eb5.dir\Debug\CheckIncludeFile.obj
+  cmTC_a7eb5.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_a7eb5.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_a7eb5.dir\Debug\cmTC_a7eb5.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_a7eb5.dir\Debug\cmTC_a7eb5.tlog\cmTC_a7eb5.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_a7eb5.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.75
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e41d9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:30.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_e41d9.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_e41d9.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_e41d9.dir\Debug\cmTC_e41d9.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_e41d9.dir\Debug\cmTC_e41d9.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e41d9.dir\Debug\\" /Fd"cmTC_e41d9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_INT8_T.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e41d9.dir\Debug\\" /Fd"cmTC_e41d9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_INT8_T.c"
+  
+  HAVE_INT8_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_e41d9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_e41d9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_e41d9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_e41d9.dir\Debug\HAVE_INT8_T.obj
+  cmTC_e41d9.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_e41d9.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_e41d9.dir\Debug\cmTC_e41d9.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_e41d9.dir\Debug\cmTC_e41d9.tlog\cmTC_e41d9.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_e41d9.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.75
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c0c84.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:31.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_c0c84.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_c0c84.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_c0c84.dir\Debug\cmTC_c0c84.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_c0c84.dir\Debug\cmTC_c0c84.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0c84.dir\Debug\\" /Fd"cmTC_c0c84.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_UINT8_T.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0c84.dir\Debug\\" /Fd"cmTC_c0c84.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_UINT8_T.c"
+  
+  HAVE_UINT8_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_c0c84.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_c0c84.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_c0c84.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_c0c84.dir\Debug\HAVE_UINT8_T.obj
+  cmTC_c0c84.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_c0c84.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_c0c84.dir\Debug\cmTC_c0c84.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_c0c84.dir\Debug\cmTC_c0c84.tlog\cmTC_c0c84.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_c0c84.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.72
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f6db2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:32.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_f6db2.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_f6db2.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_f6db2.dir\Debug\cmTC_f6db2.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_f6db2.dir\Debug\cmTC_f6db2.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6db2.dir\Debug\\" /Fd"cmTC_f6db2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_INT16_T.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6db2.dir\Debug\\" /Fd"cmTC_f6db2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_INT16_T.c"
+  
+  HAVE_INT16_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_f6db2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_f6db2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_f6db2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_f6db2.dir\Debug\HAVE_INT16_T.obj
+  cmTC_f6db2.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_f6db2.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_f6db2.dir\Debug\cmTC_f6db2.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_f6db2.dir\Debug\cmTC_f6db2.tlog\cmTC_f6db2.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_f6db2.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.69
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_48aeb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:32.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_48aeb.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_48aeb.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_48aeb.dir\Debug\cmTC_48aeb.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_48aeb.dir\Debug\cmTC_48aeb.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_48aeb.dir\Debug\\" /Fd"cmTC_48aeb.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_UINT16_T.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_48aeb.dir\Debug\\" /Fd"cmTC_48aeb.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_UINT16_T.c"
+  
+  HAVE_UINT16_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_48aeb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_48aeb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_48aeb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_48aeb.dir\Debug\HAVE_UINT16_T.obj
+  cmTC_48aeb.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_48aeb.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_48aeb.dir\Debug\cmTC_48aeb.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_48aeb.dir\Debug\cmTC_48aeb.tlog\cmTC_48aeb.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_48aeb.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.71
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_13466.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:33.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_13466.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_13466.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_13466.dir\Debug\cmTC_13466.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_13466.dir\Debug\cmTC_13466.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13466.dir\Debug\\" /Fd"cmTC_13466.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_INT32_T.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13466.dir\Debug\\" /Fd"cmTC_13466.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_INT32_T.c"
+  
+  HAVE_INT32_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_13466.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_13466.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_13466.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_13466.dir\Debug\HAVE_INT32_T.obj
+  cmTC_13466.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_13466.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_13466.dir\Debug\cmTC_13466.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_13466.dir\Debug\cmTC_13466.tlog\cmTC_13466.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_13466.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.69
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4b0a2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:34.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_4b0a2.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_4b0a2.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_4b0a2.dir\Debug\cmTC_4b0a2.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_4b0a2.dir\Debug\cmTC_4b0a2.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b0a2.dir\Debug\\" /Fd"cmTC_4b0a2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_UINT32_T.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b0a2.dir\Debug\\" /Fd"cmTC_4b0a2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_UINT32_T.c"
+  
+  HAVE_UINT32_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_4b0a2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_4b0a2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_4b0a2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_4b0a2.dir\Debug\HAVE_UINT32_T.obj
+  cmTC_4b0a2.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_4b0a2.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_4b0a2.dir\Debug\cmTC_4b0a2.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_4b0a2.dir\Debug\cmTC_4b0a2.tlog\cmTC_4b0a2.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_4b0a2.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.70
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1dfa2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:35.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_1dfa2.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_1dfa2.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_1dfa2.dir\Debug\cmTC_1dfa2.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_1dfa2.dir\Debug\cmTC_1dfa2.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1dfa2.dir\Debug\\" /Fd"cmTC_1dfa2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_INT64_T.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1dfa2.dir\Debug\\" /Fd"cmTC_1dfa2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_INT64_T.c"
+  
+  HAVE_INT64_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_1dfa2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_1dfa2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_1dfa2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_1dfa2.dir\Debug\HAVE_INT64_T.obj
+  cmTC_1dfa2.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_1dfa2.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_1dfa2.dir\Debug\cmTC_1dfa2.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_1dfa2.dir\Debug\cmTC_1dfa2.tlog\cmTC_1dfa2.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_1dfa2.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.66
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0a543.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:36.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_0a543.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_0a543.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_0a543.dir\Debug\cmTC_0a543.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_0a543.dir\Debug\cmTC_0a543.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a543.dir\Debug\\" /Fd"cmTC_0a543.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_UINT64_T.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a543.dir\Debug\\" /Fd"cmTC_0a543.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_UINT64_T.c"
+  
+  HAVE_UINT64_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_0a543.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_0a543.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_0a543.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_0a543.dir\Debug\HAVE_UINT64_T.obj
+  cmTC_0a543.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_0a543.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_0a543.dir\Debug\cmTC_0a543.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_0a543.dir\Debug\cmTC_0a543.tlog\cmTC_0a543.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_0a543.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.67
+
+
+Determining size of __int8 passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_84a48.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:37.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_84a48.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_84a48.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_84a48.dir\Debug\cmTC_84a48.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_84a48.dir\Debug\cmTC_84a48.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84a48.dir\Debug\\" /Fd"cmTC_84a48.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_INT8.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84a48.dir\Debug\\" /Fd"cmTC_84a48.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_INT8.c"
+  
+  HAVE_MS_INT8.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_84a48.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_84a48.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_84a48.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_84a48.dir\Debug\HAVE_MS_INT8.obj
+  cmTC_84a48.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_84a48.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_84a48.dir\Debug\cmTC_84a48.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_84a48.dir\Debug\cmTC_84a48.tlog\cmTC_84a48.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_84a48.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.71
+
+
+Determining size of unsigned __int8 passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7e090.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:38.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_7e090.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_7e090.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_7e090.dir\Debug\cmTC_7e090.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_7e090.dir\Debug\cmTC_7e090.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e090.dir\Debug\\" /Fd"cmTC_7e090.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_UINT8.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e090.dir\Debug\\" /Fd"cmTC_7e090.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_UINT8.c"
+  
+  HAVE_MS_UINT8.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_7e090.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_7e090.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_7e090.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_7e090.dir\Debug\HAVE_MS_UINT8.obj
+  cmTC_7e090.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_7e090.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_7e090.dir\Debug\cmTC_7e090.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_7e090.dir\Debug\cmTC_7e090.tlog\cmTC_7e090.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_7e090.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.69
+
+
+Determining size of __int16 passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_276ee.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:39.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_276ee.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_276ee.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_276ee.dir\Debug\cmTC_276ee.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_276ee.dir\Debug\cmTC_276ee.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_276ee.dir\Debug\\" /Fd"cmTC_276ee.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_INT16.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_276ee.dir\Debug\\" /Fd"cmTC_276ee.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_INT16.c"
+  
+  HAVE_MS_INT16.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_276ee.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_276ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_276ee.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_276ee.dir\Debug\HAVE_MS_INT16.obj
+  cmTC_276ee.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_276ee.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_276ee.dir\Debug\cmTC_276ee.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_276ee.dir\Debug\cmTC_276ee.tlog\cmTC_276ee.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_276ee.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.72
+
+
+Determining size of unsigned __int16 passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c1240.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:40.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_c1240.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_c1240.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_c1240.dir\Debug\cmTC_c1240.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_c1240.dir\Debug\cmTC_c1240.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1240.dir\Debug\\" /Fd"cmTC_c1240.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_UINT16.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1240.dir\Debug\\" /Fd"cmTC_c1240.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_UINT16.c"
+  
+  HAVE_MS_UINT16.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_c1240.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_c1240.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_c1240.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_c1240.dir\Debug\HAVE_MS_UINT16.obj
+  cmTC_c1240.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_c1240.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_c1240.dir\Debug\cmTC_c1240.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_c1240.dir\Debug\cmTC_c1240.tlog\cmTC_c1240.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_c1240.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.71
+
+
+Determining size of __int32 passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ec248.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:41.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_ec248.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_ec248.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_ec248.dir\Debug\cmTC_ec248.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_ec248.dir\Debug\cmTC_ec248.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec248.dir\Debug\\" /Fd"cmTC_ec248.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_INT32.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec248.dir\Debug\\" /Fd"cmTC_ec248.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_INT32.c"
+  
+  HAVE_MS_INT32.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_ec248.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_ec248.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_ec248.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_ec248.dir\Debug\HAVE_MS_INT32.obj
+  cmTC_ec248.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_ec248.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_ec248.dir\Debug\cmTC_ec248.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_ec248.dir\Debug\cmTC_ec248.tlog\cmTC_ec248.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_ec248.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.78
+
+
+Determining size of unsigned __int32 passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_313d4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:42.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_313d4.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_313d4.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_313d4.dir\Debug\cmTC_313d4.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_313d4.dir\Debug\cmTC_313d4.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_313d4.dir\Debug\\" /Fd"cmTC_313d4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_UINT32.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_313d4.dir\Debug\\" /Fd"cmTC_313d4.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_UINT32.c"
+  
+  HAVE_MS_UINT32.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_313d4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_313d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_313d4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_313d4.dir\Debug\HAVE_MS_UINT32.obj
+  cmTC_313d4.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_313d4.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_313d4.dir\Debug\cmTC_313d4.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_313d4.dir\Debug\cmTC_313d4.tlog\cmTC_313d4.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_313d4.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.70
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fe0a9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:43.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_fe0a9.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_fe0a9.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_fe0a9.dir\Debug\cmTC_fe0a9.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_fe0a9.dir\Debug\cmTC_fe0a9.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe0a9.dir\Debug\\" /Fd"cmTC_fe0a9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_INT64.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe0a9.dir\Debug\\" /Fd"cmTC_fe0a9.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_INT64.c"
+  
+  HAVE_MS_INT64.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_fe0a9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_fe0a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_fe0a9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_fe0a9.dir\Debug\HAVE_MS_INT64.obj
+  cmTC_fe0a9.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_fe0a9.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_fe0a9.dir\Debug\cmTC_fe0a9.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_fe0a9.dir\Debug\cmTC_fe0a9.tlog\cmTC_fe0a9.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_fe0a9.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.67
+
+
+Determining size of unsigned __int64 passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2b5f2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:44.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_2b5f2.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_2b5f2.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_2b5f2.dir\Debug\cmTC_2b5f2.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_2b5f2.dir\Debug\cmTC_2b5f2.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b5f2.dir\Debug\\" /Fd"cmTC_2b5f2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_UINT64.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b5f2.dir\Debug\\" /Fd"cmTC_2b5f2.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CheckTypeSize\HAVE_MS_UINT64.c"
+  
+  HAVE_MS_UINT64.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_2b5f2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_2b5f2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_2b5f2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_2b5f2.dir\Debug\HAVE_MS_UINT64.obj
+  cmTC_2b5f2.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_2b5f2.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_2b5f2.dir\Debug\cmTC_2b5f2.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_2b5f2.dir\Debug\cmTC_2b5f2.tlog\cmTC_2b5f2.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_2b5f2.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.65
+
+
+Determining if the function strtold exists passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9fe49.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:45.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_9fe49.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_9fe49.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_9fe49.dir\Debug\cmTC_9fe49.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_9fe49.dir\Debug\cmTC_9fe49.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtold /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9fe49.dir\Debug\\" /Fd"cmTC_9fe49.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtold /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9fe49.dir\Debug\\" /Fd"cmTC_9fe49.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_9fe49.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_9fe49.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_9fe49.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_9fe49.dir\Debug\CheckFunctionExists.obj
+  cmTC_9fe49.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_9fe49.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_9fe49.dir\Debug\cmTC_9fe49.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_9fe49.dir\Debug\cmTC_9fe49.tlog\cmTC_9fe49.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_9fe49.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.70
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_32abc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:46.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_32abc.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_32abc.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_32abc.dir\Debug\cmTC_32abc.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_32abc.dir\Debug\cmTC_32abc.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtol /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32abc.dir\Debug\\" /Fd"cmTC_32abc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtol /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32abc.dir\Debug\\" /Fd"cmTC_32abc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_32abc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_32abc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_32abc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_32abc.dir\Debug\CheckFunctionExists.obj
+  cmTC_32abc.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_32abc.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_32abc.dir\Debug\cmTC_32abc.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_32abc.dir\Debug\cmTC_32abc.tlog\cmTC_32abc.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_32abc.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.80
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_91cd0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:47.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_91cd0.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_91cd0.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_91cd0.dir\Debug\cmTC_91cd0.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_91cd0.dir\Debug\cmTC_91cd0.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91cd0.dir\Debug\\" /Fd"cmTC_91cd0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoll /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91cd0.dir\Debug\\" /Fd"cmTC_91cd0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_91cd0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_91cd0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_91cd0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_91cd0.dir\Debug\CheckFunctionExists.obj
+  cmTC_91cd0.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_91cd0.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_91cd0.dir\Debug\cmTC_91cd0.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_91cd0.dir\Debug\cmTC_91cd0.tlog\cmTC_91cd0.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_91cd0.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.67
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f946a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:48.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_f946a.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_f946a.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_f946a.dir\Debug\cmTC_f946a.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_f946a.dir\Debug\cmTC_f946a.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoul /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f946a.dir\Debug\\" /Fd"cmTC_f946a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoul /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f946a.dir\Debug\\" /Fd"cmTC_f946a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_f946a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_f946a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_f946a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_f946a.dir\Debug\CheckFunctionExists.obj
+  cmTC_f946a.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_f946a.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_f946a.dir\Debug\cmTC_f946a.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_f946a.dir\Debug\cmTC_f946a.tlog\cmTC_f946a.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_f946a.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.67
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cfead.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:49.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_cfead.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_cfead.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_cfead.dir\Debug\cmTC_cfead.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_cfead.dir\Debug\cmTC_cfead.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoull /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cfead.dir\Debug\\" /Fd"cmTC_cfead.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoull /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cfead.dir\Debug\\" /Fd"cmTC_cfead.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_cfead.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_cfead.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_cfead.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_cfead.dir\Debug\CheckFunctionExists.obj
+  cmTC_cfead.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_cfead.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_cfead.dir\Debug\cmTC_cfead.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_cfead.dir\Debug\cmTC_cfead.tlog\cmTC_cfead.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_cfead.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.70
+
+
+Determining if the function strtoimax exists passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c0a69.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:50.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_c0a69.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_c0a69.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_c0a69.dir\Debug\cmTC_c0a69.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_c0a69.dir\Debug\cmTC_c0a69.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoimax /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0a69.dir\Debug\\" /Fd"cmTC_c0a69.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoimax /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0a69.dir\Debug\\" /Fd"cmTC_c0a69.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_c0a69.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_c0a69.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_c0a69.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_c0a69.dir\Debug\CheckFunctionExists.obj
+  cmTC_c0a69.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_c0a69.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_c0a69.dir\Debug\cmTC_c0a69.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_c0a69.dir\Debug\cmTC_c0a69.tlog\cmTC_c0a69.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_c0a69.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.67
+
+
+Determining if the function strtoumax exists passed with the following output:
+Change Dir: C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7f1a6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine, version 14.0.24720.0
+Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+
+La g‚n‚ration a d‚marr‚ 02/12/2015 19:53:51.
+La cible "BeforeGenerateProjectPriFile" r‚pertori‚e dans un attribut BeforeTargets … "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" n'existe pas dans le projet et sera ignor‚e.
+Projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_7f1a6.vcxproj" sur le noud 1 (cibles par d‚faut).
+PrepareForBuild:
+  Cr‚ation du r‚pertoire "cmTC_7f1a6.dir\Debug\".
+  Cr‚ation du r‚pertoire "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Cr‚ation du r‚pertoire "cmTC_7f1a6.dir\Debug\cmTC_7f1a6.tlog\".
+InitializeBuildStatus:
+  Cr‚ation de "cmTC_7f1a6.dir\Debug\cmTC_7f1a6.tlog\unsuccessfulbuild", car "AlwaysCreate" a ‚t‚ sp‚cifi‚.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoumax /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f1a6.dir\Debug\\" /Fd"cmTC_7f1a6.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  Compilateur d'optimisation Microsoft (R) C/C++ versionÿ19.00.23506 pour x86
+  Copyright (C) Microsoft Corporation. Tous droits r‚serv‚s.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoumax /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f1a6.dir\Debug\\" /Fd"cmTC_7f1a6.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_7f1a6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_7f1a6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_7f1a6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTC_7f1a6.dir\Debug\CheckFunctionExists.obj
+  cmTC_7f1a6.vcxproj -> C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_7f1a6.exe
+FinalizeBuildStatus:
+  Suppression du fichier "cmTC_7f1a6.dir\Debug\cmTC_7f1a6.tlog\unsuccessfulbuild".
+  Mise … jour de l'horodatage "cmTC_7f1a6.dir\Debug\cmTC_7f1a6.tlog\cmTC_7f1a6.lastbuildstate".
+G‚n‚ration du projet "C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\CMakeFiles\CMakeTmp\cmTC_7f1a6.vcxproj" termin‚e (cibles par d‚faut).
+
+La g‚n‚ration a r‚ussi.
+    0 Avertissement(s)
+    0 Erreur(s)
+
+Temps ‚coul‚ 00:00:00.71
+
+

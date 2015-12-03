@@ -1,0 +1,408 @@
+﻿  Building Custom Rule C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/driver/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\driver\CMakeFiles\generate.stamp is up-to-date.
+  mysql_art_resultset.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_art_rset_metadata.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1925): warning C4005: 'snprintf' : redéfinition de macro
+  c:\users\maxime\git\eip---https_srv\test\mysql\mysql-connector-c++-1.1.6\driver\nativeapi/mysql_private_iface.h(48): note: voir la définition précédente de 'snprintf'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1927): fatal error C1189: #error:  Macro definition of snprintf conflicts with Standard Library function declaration
+  mysql_connection.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_debug.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_driver.cpp
+  mysql_metadata.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_parameter_metadata.cpp
+  mysql_prepared_statement.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_ps_resultset.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_ps_resultset_metadata.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_resultbind.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_resultset.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_resultset_metadata.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_statement.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_util.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_warning.cpp
+  mysql_uri.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_client_api.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  library_loader.cpp
+  mysql_native_driver_wrapper.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1925): warning C4005: 'snprintf' : redéfinition de macro
+  c:\users\maxime\git\eip---https_srv\test\mysql\mysql-connector-c++-1.1.6\driver\nativeapi\mysql_private_iface.h(48): note: voir la définition précédente de 'snprintf'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1927): fatal error C1189: #error:  Macro definition of snprintf conflicts with Standard Library function declaration
+  Génération de code en cours...
+  Compilation en cours...
+  mysql_native_connection_wrapper.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_native_statement_wrapper.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  mysql_native_resultset_wrapper.cpp
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(676): error C2011: 'timespec' : redéfinition du type 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(703): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(708): error C2227: la partie gauche de '->max_timeout_msec' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(734): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(736): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2027: utilisation du type non défini 'timespec'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(39): note: voir la déclaration de 'timespec'
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2227: la partie gauche de '->tv' doit pointer vers un type class/struct/union/générique
+c:\program files (x86)\mysql\mysql server 5.7\include\my_global.h(748): error C2228: la partie gauche de '.i64' doit avoir un class/struct/union
+c:\program files (x86)\mysql\mysql server 5.7\include\mysql_com.h(22): fatal error C1083: Impossible d'ouvrir le fichier include : 'binary_log_types.h' : No such file or directory
+  Génération de code en cours...

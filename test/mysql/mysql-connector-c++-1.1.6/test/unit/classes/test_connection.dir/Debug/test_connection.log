@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Maxime/GIT/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/test/unit/classes/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Maxime\GIT\EIP---HTTPS_SRV\test\mysql\mysql-connector-c++-1.1.6\test\unit\classes\CMakeFiles\generate.stamp is up-to-date.
+  unit_fixture.cpp
+  main.cpp
+  connection.cpp
+  Génération de code en cours...
+LINK : fatal error LNK1104: impossible d'ouvrir le fichier '..\..\..\driver\Debug\mysqlcppconn.lib'
