@@ -10,7 +10,7 @@ GPP		= g++
 
 RM		= rm -rf
 
-FLAG		= -lpq -I/usr/local/pgsql/include ##-Werror -W -Wall -Wextra -lm     
+FLAG		= -lpq ##-Werror -W -Wall -Wextra -lm     
 
 all:		$(NAME)
 

@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-//#include <libpq-fe.h>
+#include "/usr/include/postgresql/libpq-fe.h"
 
 class		Postgre {
 private:
@@ -15,11 +15,18 @@ private:
   char		*Passwd_;
   char		*Ip_;
   int		Port_;
+
+  PGconn	*conn;
+  char		*conninfo;
+
 public:
   Postgre(char *, char *, char *, char *, char *);
   ~Postgre();
 
   void		run();
+
+  bool		setConninfo();
+  char		*getConninfo() const;
   bool		setDbName(char *);
   char		*getDbName() const;
   bool		setUser(char *);
