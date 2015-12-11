@@ -5,18 +5,18 @@
 #include "utils.h"
 
 // Include used to test the mySQL connectors -> can be removed if needed
-#include "../test/mysql/mySql.h"
+//#include "../test/mysql/mySql.h"
 
 using boost::asio::ip::tcp;
 
 int		main(int ac, char *av[]) {
-  /*
-  Server	server(my_atoi(av[1]));
+
 
   if (ac != 2) {
     std::cerr << "Usage : server [Port]" << std::endl;
     return (-1);
   }
+  Server	server(my_atoi(av[1]));
   try {
     server.run();
   } catch (const Exception &e)
@@ -24,7 +24,7 @@ int		main(int ac, char *av[]) {
       std::cerr << "Une erreur est survenue :" << std::endl
       << e.getMessage() << std::endl;
     }
-	*/
+
 
 
 	// Code used to test the mySQL connectors -> can be removed if needed
