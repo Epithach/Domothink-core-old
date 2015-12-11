@@ -18,7 +18,7 @@ Postgre::Postgre(char *dbname, char *user, char *password, char *ip, char *port)
   setPort(atoi(port));
   std::cout << "Port : " <<this->Port_ << std::endl;
 
-  std::cout << "CONSTRUCTOR OK" << std;;endl;
+  std::cout << "CONSTRUCTOR OK" << std::endl;
 }
 
 
@@ -28,9 +28,6 @@ Postgre::~Postgre() {
   free(this->User_);
   free(this->Passwd_);
   free(this->Ip_);
-  free(this->Port_);
-
-  
 }
 
 void		Postgre::run() {
