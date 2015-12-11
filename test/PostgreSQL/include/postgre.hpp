@@ -13,7 +13,7 @@ private:
   char		*DbName_;
   char		*User_;
   char		*Passwd_;
-  char		*Ip_;
+  char		*Host_;
   int		Port_;
 
   PGconn	*conn;
@@ -33,8 +33,8 @@ public:
   char		*getUser() const;
   bool		setPasswd(char *);
   char		*getPasswd() const;
-  bool		setIp(char *);
-  char		*getIp() const;
+  bool		setHost(char *);
+  char		*getHost() const;
   void		setPort(int);
   int		getPort() const;
 };

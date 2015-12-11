@@ -1,6 +1,6 @@
 #include "../include/postgre.hpp"
 
-Postgre::Postgre(char *dbname, char *user, char *password, char *ip, char *port) {
+Postgre::Postgre(char *dbname, char *user, char *password, char *host, char *port) {
 
   if (setDbName(dbname) == false)
     throw ;
@@ -11,13 +11,13 @@ Postgre::Postgre(char *dbname, char *user, char *password, char *ip, char *port)
   if (setPasswd(password) == false)
     throw ;
   std::cout << "Passwd : " <<this->Passwd_ << std::endl;
-  if (setIp(ip) == false)
+  if (setHost(host) == false)
     throw ;
-  std::cout << "Ip : " <<this->Ip_ << std::endl;
+  std::cout << "Host : " <<this->Host_ << std::endl;
   setPort(atoi(port));
   std::cout << "Port : " <<this->Port_ << std::endl;
 
-  std::cout << "CONSTRUCTOR OK" << std::endl << std::endl;
+  std::cout << "Constructor : Ok" << std::endl << std::endl;
 }
 
 
@@ -26,9 +26,9 @@ Postgre::~Postgre() {
   free(this->DbName_);
   free(this->User_);
   free(this->Passwd_);
-  free(this->Ip_);
+  free(this->Host_);
 
-  std::cout << std::endl << "DESTRUCTOR OK" << std::endl;
+  std::cout << std::endl << "Destructor : Ok" << std::endl;
 }
 
 void		Postgre::run() {
@@ -59,7 +59,6 @@ void		Postgre::run() {
     std::cout << "Connection to database : Ok" << std::endl;
 
   
-
 
 
 
@@ -103,15 +102,15 @@ char		*Postgre::getPasswd() const {
   return this->Passwd_;
 }
 
-bool		Postgre::setIp(char *ip) {
-  if ((this->Ip_ = (char *)malloc(sizeof(char *) * 4096)) == NULL)
+bool		Postgre::setHost(char *host) {
+  if ((this->Host_ = (char *)malloc(sizeof(char *) * 4096)) == NULL)
     return false;
-  strcpy(this->Ip_, ip);
+  strcpy(this->Host_, host);
   return true;
 }
 
-char		*Postgre::getIp() const {
-  return this->Ip_;
+char		*Postgre::getHost() const {
+  return this->Host_;
 }
 
 void		Postgre::setPort(int port) {
@@ -128,7 +127,7 @@ bool		Postgre::setConninfo() {
 
   if ((this->conninfo = (char *)malloc(sizeof(char *) * 4096)) == NULL)
     return false;
-  strcpy(this->conninfo, "dbname = ");
+  strcpy(this->conninfo, "host=127.0.0.1 user=eip password=eip dbname=");
   
   int i = 0;
   while (this->conninfo[i] != '\0')
