@@ -34,7 +34,7 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 
 /* Driver version info */
 
-#define MYCPPCONN_STATIC_MYSQL_VERSION     ""
-#define MYCPPCONN_STATIC_MYSQL_VERSION_ID  
+#define MYCPPCONN_STATIC_MYSQL_VERSION     "5.5.46"
+#define MYCPPCONN_STATIC_MYSQL_VERSION_ID  50546
 
-#define MYCPPCONN_BOOST_VERSION            105900
+#define MYCPPCONN_BOOST_VERSION            105500
