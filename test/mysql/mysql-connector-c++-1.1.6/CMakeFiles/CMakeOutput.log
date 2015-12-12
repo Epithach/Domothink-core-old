@@ -1394,3 +1394,850 @@ La g‚n‚ration a r‚ussi.
 Temps ‚coul‚ 00:00:00.71
 
 
+The system is: Linux - 3.16.0-4-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec101402476/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec101402476.dir/build.make CMakeFiles/cmTryCompileExec101402476.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec101402476.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec101402476.dir/testCCompiler.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec101402476
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec101402476.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec101402476.dir/testCCompiler.c.o  -o cmTryCompileExec101402476 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1064785421/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1064785421.dir/build.make CMakeFiles/cmTryCompileExec1064785421.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1064785421.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1064785421.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1064785421
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1064785421.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1064785421.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1064785421 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-10) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1064785421' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGpZDD4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1064785421 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1064785421.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1064785421/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1064785421.dir/build.make CMakeFiles/cmTryCompileExec1064785421.dir/build]
+  ignore line: [make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1064785421.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1064785421.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1064785421]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1064785421.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec1064785421.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1064785421 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1064785421' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGpZDD4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec1064785421 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec1064785421.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGpZDD4.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec1064785421] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec1064785421.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2952079777/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2952079777.dir/build.make CMakeFiles/cmTryCompileExec2952079777.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2952079777.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2952079777.dir/testCXXCompiler.cxx.o -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2952079777
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2952079777.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2952079777.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2952079777 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec606729972/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec606729972.dir/build.make CMakeFiles/cmTryCompileExec606729972.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec606729972.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec606729972.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec606729972
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec606729972.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec606729972.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec606729972 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-10) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec606729972' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgnB7Hi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec606729972 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec606729972.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec606729972/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec606729972.dir/build.make CMakeFiles/cmTryCompileExec606729972.dir/build]
+  ignore line: [make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec606729972.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec606729972.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec606729972]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec606729972.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec606729972.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec606729972 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec606729972' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccgnB7Hi.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec606729972 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec606729972.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccgnB7Hi.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec606729972] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec606729972.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1078271658/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1078271658.dir/build.make CMakeFiles/cmTryCompileExec1078271658.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1078271658.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1078271658.dir/CheckIncludeFiles.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1078271658
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1078271658.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1078271658.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1078271658 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1007723651/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1007723651.dir/build.make CMakeFiles/cmTryCompileExec1007723651.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1007723651.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1007723651.dir/CheckIncludeFiles.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1007723651
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1007723651.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1007723651.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1007723651 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1826644897/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1826644897.dir/build.make CMakeFiles/cmTryCompileExec1826644897.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1826644897.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1826644897.dir/CheckIncludeFile.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1826644897
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1826644897.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1826644897.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1826644897 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1916317874/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1916317874.dir/build.make CMakeFiles/cmTryCompileExec1916317874.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1916317874.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1916317874.dir/CheckIncludeFile.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1916317874
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1916317874.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1916317874.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1916317874 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec22259964/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec22259964.dir/build.make CMakeFiles/cmTryCompileExec22259964.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec22259964.dir/HAVE_INT8_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec22259964.dir/HAVE_INT8_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_INT8_T.c
+Linking C executable cmTryCompileExec22259964
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec22259964.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec22259964.dir/HAVE_INT8_T.c.o  -o cmTryCompileExec22259964 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3965321347/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3965321347.dir/build.make CMakeFiles/cmTryCompileExec3965321347.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3965321347.dir/HAVE_UINT8_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3965321347.dir/HAVE_UINT8_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_UINT8_T.c
+Linking C executable cmTryCompileExec3965321347
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3965321347.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3965321347.dir/HAVE_UINT8_T.c.o  -o cmTryCompileExec3965321347 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec624713359/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec624713359.dir/build.make CMakeFiles/cmTryCompileExec624713359.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec624713359.dir/HAVE_INT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec624713359.dir/HAVE_INT16_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_INT16_T.c
+Linking C executable cmTryCompileExec624713359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec624713359.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec624713359.dir/HAVE_INT16_T.c.o  -o cmTryCompileExec624713359 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3588087337/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3588087337.dir/build.make CMakeFiles/cmTryCompileExec3588087337.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3588087337.dir/HAVE_UINT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3588087337.dir/HAVE_UINT16_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.c
+Linking C executable cmTryCompileExec3588087337
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3588087337.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3588087337.dir/HAVE_UINT16_T.c.o  -o cmTryCompileExec3588087337 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2174398319/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2174398319.dir/build.make CMakeFiles/cmTryCompileExec2174398319.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2174398319.dir/HAVE_INT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2174398319.dir/HAVE_INT32_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_INT32_T.c
+Linking C executable cmTryCompileExec2174398319
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2174398319.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2174398319.dir/HAVE_INT32_T.c.o  -o cmTryCompileExec2174398319 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2872806300/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2872806300.dir/build.make CMakeFiles/cmTryCompileExec2872806300.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2872806300.dir/HAVE_UINT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2872806300.dir/HAVE_UINT32_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_UINT32_T.c
+Linking C executable cmTryCompileExec2872806300
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2872806300.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2872806300.dir/HAVE_UINT32_T.c.o  -o cmTryCompileExec2872806300 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2707956384/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2707956384.dir/build.make CMakeFiles/cmTryCompileExec2707956384.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2707956384.dir/HAVE_INT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2707956384.dir/HAVE_INT64_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_INT64_T.c
+Linking C executable cmTryCompileExec2707956384
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2707956384.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2707956384.dir/HAVE_INT64_T.c.o  -o cmTryCompileExec2707956384 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec773090124/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec773090124.dir/build.make CMakeFiles/cmTryCompileExec773090124.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec773090124.dir/HAVE_UINT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec773090124.dir/HAVE_UINT64_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_UINT64_T.c
+Linking C executable cmTryCompileExec773090124
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec773090124.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec773090124.dir/HAVE_UINT64_T.c.o  -o cmTryCompileExec773090124 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtold exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec906781255/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec906781255.dir/build.make CMakeFiles/cmTryCompileExec906781255.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec906781255.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtold   -o CMakeFiles/cmTryCompileExec906781255.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec906781255
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec906781255.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtold    CMakeFiles/cmTryCompileExec906781255.dir/CheckFunctionExists.c.o  -o cmTryCompileExec906781255 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3404841604/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3404841604.dir/build.make CMakeFiles/cmTryCompileExec3404841604.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3404841604.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTryCompileExec3404841604.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3404841604
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3404841604.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtol    CMakeFiles/cmTryCompileExec3404841604.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3404841604 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1104930401/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1104930401.dir/build.make CMakeFiles/cmTryCompileExec1104930401.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1104930401.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTryCompileExec1104930401.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1104930401
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1104930401.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoll    CMakeFiles/cmTryCompileExec1104930401.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1104930401 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec342726043/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec342726043.dir/build.make CMakeFiles/cmTryCompileExec342726043.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec342726043.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoul   -o CMakeFiles/cmTryCompileExec342726043.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec342726043
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec342726043.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoul    CMakeFiles/cmTryCompileExec342726043.dir/CheckFunctionExists.c.o  -o cmTryCompileExec342726043 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2037352666/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2037352666.dir/build.make CMakeFiles/cmTryCompileExec2037352666.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2037352666.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTryCompileExec2037352666.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2037352666
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2037352666.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoull    CMakeFiles/cmTryCompileExec2037352666.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2037352666 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoimax exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2792268405/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2792268405.dir/build.make CMakeFiles/cmTryCompileExec2792268405.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2792268405.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoimax   -o CMakeFiles/cmTryCompileExec2792268405.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2792268405
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2792268405.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoimax    CMakeFiles/cmTryCompileExec2792268405.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2792268405 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoumax exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3688905933/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3688905933.dir/build.make CMakeFiles/cmTryCompileExec3688905933.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3688905933.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoumax   -o CMakeFiles/cmTryCompileExec3688905933.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3688905933
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3688905933.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoumax    CMakeFiles/cmTryCompileExec3688905933.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3688905933 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec797252256/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec797252256.dir/build.make CMakeFiles/cmTryCompileExec797252256.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec797252256.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec797252256.dir/CheckIncludeFiles.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec797252256
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec797252256.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec797252256.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec797252256 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2667661121/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2667661121.dir/build.make CMakeFiles/cmTryCompileExec2667661121.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2667661121.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2667661121.dir/CheckIncludeFiles.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2667661121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2667661121.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2667661121.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2667661121 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3258703792/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3258703792.dir/build.make CMakeFiles/cmTryCompileExec3258703792.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3258703792.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3258703792.dir/CheckIncludeFile.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3258703792
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3258703792.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3258703792.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3258703792 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1227396688/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1227396688.dir/build.make CMakeFiles/cmTryCompileExec1227396688.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1227396688.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1227396688.dir/CheckIncludeFile.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1227396688
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1227396688.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1227396688.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1227396688 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of int8_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3344088587/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3344088587.dir/build.make CMakeFiles/cmTryCompileExec3344088587.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3344088587.dir/HAVE_INT8_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3344088587.dir/HAVE_INT8_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_INT8_T.c
+Linking C executable cmTryCompileExec3344088587
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3344088587.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3344088587.dir/HAVE_INT8_T.c.o  -o cmTryCompileExec3344088587 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec903784221/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec903784221.dir/build.make CMakeFiles/cmTryCompileExec903784221.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec903784221.dir/HAVE_UINT8_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec903784221.dir/HAVE_UINT8_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_UINT8_T.c
+Linking C executable cmTryCompileExec903784221
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec903784221.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec903784221.dir/HAVE_UINT8_T.c.o  -o cmTryCompileExec903784221 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec232753977/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec232753977.dir/build.make CMakeFiles/cmTryCompileExec232753977.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec232753977.dir/HAVE_INT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec232753977.dir/HAVE_INT16_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_INT16_T.c
+Linking C executable cmTryCompileExec232753977
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec232753977.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec232753977.dir/HAVE_INT16_T.c.o  -o cmTryCompileExec232753977 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec685292870/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec685292870.dir/build.make CMakeFiles/cmTryCompileExec685292870.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec685292870.dir/HAVE_UINT16_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec685292870.dir/HAVE_UINT16_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.c
+Linking C executable cmTryCompileExec685292870
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec685292870.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec685292870.dir/HAVE_UINT16_T.c.o  -o cmTryCompileExec685292870 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2645371104/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2645371104.dir/build.make CMakeFiles/cmTryCompileExec2645371104.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2645371104.dir/HAVE_INT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2645371104.dir/HAVE_INT32_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_INT32_T.c
+Linking C executable cmTryCompileExec2645371104
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2645371104.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2645371104.dir/HAVE_INT32_T.c.o  -o cmTryCompileExec2645371104 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2257585196/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2257585196.dir/build.make CMakeFiles/cmTryCompileExec2257585196.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2257585196.dir/HAVE_UINT32_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2257585196.dir/HAVE_UINT32_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_UINT32_T.c
+Linking C executable cmTryCompileExec2257585196
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2257585196.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2257585196.dir/HAVE_UINT32_T.c.o  -o cmTryCompileExec2257585196 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3537382438/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3537382438.dir/build.make CMakeFiles/cmTryCompileExec3537382438.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3537382438.dir/HAVE_INT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3537382438.dir/HAVE_INT64_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_INT64_T.c
+Linking C executable cmTryCompileExec3537382438
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3537382438.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3537382438.dir/HAVE_INT64_T.c.o  -o cmTryCompileExec3537382438 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1842744671/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1842744671.dir/build.make CMakeFiles/cmTryCompileExec1842744671.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1842744671.dir/HAVE_UINT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1842744671.dir/HAVE_UINT64_T.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_UINT64_T.c
+Linking C executable cmTryCompileExec1842744671
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1842744671.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1842744671.dir/HAVE_UINT64_T.c.o  -o cmTryCompileExec1842744671 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtold exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3858233689/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3858233689.dir/build.make CMakeFiles/cmTryCompileExec3858233689.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3858233689.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtold   -o CMakeFiles/cmTryCompileExec3858233689.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3858233689
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3858233689.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtold    CMakeFiles/cmTryCompileExec3858233689.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3858233689 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2029404840/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2029404840.dir/build.make CMakeFiles/cmTryCompileExec2029404840.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2029404840.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtol   -o CMakeFiles/cmTryCompileExec2029404840.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2029404840
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2029404840.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtol    CMakeFiles/cmTryCompileExec2029404840.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2029404840 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1501107985/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1501107985.dir/build.make CMakeFiles/cmTryCompileExec1501107985.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1501107985.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoll   -o CMakeFiles/cmTryCompileExec1501107985.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1501107985
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1501107985.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoll    CMakeFiles/cmTryCompileExec1501107985.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1501107985 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1004302876/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1004302876.dir/build.make CMakeFiles/cmTryCompileExec1004302876.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1004302876.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoul   -o CMakeFiles/cmTryCompileExec1004302876.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1004302876
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1004302876.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoul    CMakeFiles/cmTryCompileExec1004302876.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1004302876 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2892958600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2892958600.dir/build.make CMakeFiles/cmTryCompileExec2892958600.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2892958600.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoull   -o CMakeFiles/cmTryCompileExec2892958600.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2892958600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2892958600.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoull    CMakeFiles/cmTryCompileExec2892958600.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2892958600 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoimax exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec850962340/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec850962340.dir/build.make CMakeFiles/cmTryCompileExec850962340.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec850962340.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoimax   -o CMakeFiles/cmTryCompileExec850962340.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec850962340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec850962340.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoimax    CMakeFiles/cmTryCompileExec850962340.dir/CheckFunctionExists.c.o  -o cmTryCompileExec850962340 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoumax exists passed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3944910202/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3944910202.dir/build.make CMakeFiles/cmTryCompileExec3944910202.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3944910202.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoumax   -o CMakeFiles/cmTryCompileExec3944910202.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3944910202
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3944910202.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strtoumax    CMakeFiles/cmTryCompileExec3944910202.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3944910202 -rdynamic 
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+
+
