@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "/usr/include/postgresql/libpq-fe.h"
+#include <libpq-fe.h>
 
 class		Postgre {
 private:
