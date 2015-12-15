@@ -20,9 +20,6 @@ default_target: all
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -127,113 +124,140 @@ domothink\fast:
 	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\build
 .PHONY : domothink\fast
 
-Server\exception.obj: Server\exception.cpp.obj
+src\api\PostgreSQL\src\postgre.obj: src\api\PostgreSQL\src\postgre.cpp.obj
 
-.PHONY : Server\exception.obj
-
-# target to build an object file
-Server\exception.cpp.obj:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\exception.cpp.obj
-.PHONY : Server\exception.cpp.obj
-
-Server\exception.i: Server\exception.cpp.i
-
-.PHONY : Server\exception.i
-
-# target to preprocess a source file
-Server\exception.cpp.i:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\exception.cpp.i
-.PHONY : Server\exception.cpp.i
-
-Server\exception.s: Server\exception.cpp.s
-
-.PHONY : Server\exception.s
-
-# target to generate assembly for a file
-Server\exception.cpp.s:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\exception.cpp.s
-.PHONY : Server\exception.cpp.s
-
-Server\main.obj: Server\main.cpp.obj
-
-.PHONY : Server\main.obj
+.PHONY : src\api\PostgreSQL\src\postgre.obj
 
 # target to build an object file
-Server\main.cpp.obj:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\main.cpp.obj
-.PHONY : Server\main.cpp.obj
+src\api\PostgreSQL\src\postgre.cpp.obj:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\api\PostgreSQL\src\postgre.cpp.obj
+.PHONY : src\api\PostgreSQL\src\postgre.cpp.obj
 
-Server\main.i: Server\main.cpp.i
+src\api\PostgreSQL\src\postgre.i: src\api\PostgreSQL\src\postgre.cpp.i
 
-.PHONY : Server\main.i
+.PHONY : src\api\PostgreSQL\src\postgre.i
 
 # target to preprocess a source file
-Server\main.cpp.i:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\main.cpp.i
-.PHONY : Server\main.cpp.i
+src\api\PostgreSQL\src\postgre.cpp.i:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\api\PostgreSQL\src\postgre.cpp.i
+.PHONY : src\api\PostgreSQL\src\postgre.cpp.i
 
-Server\main.s: Server\main.cpp.s
+src\api\PostgreSQL\src\postgre.s: src\api\PostgreSQL\src\postgre.cpp.s
 
-.PHONY : Server\main.s
+.PHONY : src\api\PostgreSQL\src\postgre.s
 
 # target to generate assembly for a file
-Server\main.cpp.s:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\main.cpp.s
-.PHONY : Server\main.cpp.s
+src\api\PostgreSQL\src\postgre.cpp.s:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\api\PostgreSQL\src\postgre.cpp.s
+.PHONY : src\api\PostgreSQL\src\postgre.cpp.s
 
-Server\server.obj: Server\server.cpp.obj
+src\exception.obj: src\exception.cpp.obj
 
-.PHONY : Server\server.obj
+.PHONY : src\exception.obj
 
 # target to build an object file
-Server\server.cpp.obj:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\server.cpp.obj
-.PHONY : Server\server.cpp.obj
+src\exception.cpp.obj:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\exception.cpp.obj
+.PHONY : src\exception.cpp.obj
 
-Server\server.i: Server\server.cpp.i
+src\exception.i: src\exception.cpp.i
 
-.PHONY : Server\server.i
+.PHONY : src\exception.i
 
 # target to preprocess a source file
-Server\server.cpp.i:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\server.cpp.i
-.PHONY : Server\server.cpp.i
+src\exception.cpp.i:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\exception.cpp.i
+.PHONY : src\exception.cpp.i
 
-Server\server.s: Server\server.cpp.s
+src\exception.s: src\exception.cpp.s
 
-.PHONY : Server\server.s
+.PHONY : src\exception.s
 
 # target to generate assembly for a file
-Server\server.cpp.s:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\server.cpp.s
-.PHONY : Server\server.cpp.s
+src\exception.cpp.s:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\exception.cpp.s
+.PHONY : src\exception.cpp.s
 
-Server\utils.obj: Server\utils.cpp.obj
+src\main.obj: src\main.cpp.obj
 
-.PHONY : Server\utils.obj
+.PHONY : src\main.obj
 
 # target to build an object file
-Server\utils.cpp.obj:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\utils.cpp.obj
-.PHONY : Server\utils.cpp.obj
+src\main.cpp.obj:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\main.cpp.obj
+.PHONY : src\main.cpp.obj
 
-Server\utils.i: Server\utils.cpp.i
+src\main.i: src\main.cpp.i
 
-.PHONY : Server\utils.i
+.PHONY : src\main.i
 
 # target to preprocess a source file
-Server\utils.cpp.i:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\utils.cpp.i
-.PHONY : Server\utils.cpp.i
+src\main.cpp.i:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\main.cpp.i
+.PHONY : src\main.cpp.i
 
-Server\utils.s: Server\utils.cpp.s
+src\main.s: src\main.cpp.s
 
-.PHONY : Server\utils.s
+.PHONY : src\main.s
 
 # target to generate assembly for a file
-Server\utils.cpp.s:
-	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\Server\utils.cpp.s
-.PHONY : Server\utils.cpp.s
+src\main.cpp.s:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\main.cpp.s
+.PHONY : src\main.cpp.s
+
+src\server.obj: src\server.cpp.obj
+
+.PHONY : src\server.obj
+
+# target to build an object file
+src\server.cpp.obj:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\server.cpp.obj
+.PHONY : src\server.cpp.obj
+
+src\server.i: src\server.cpp.i
+
+.PHONY : src\server.i
+
+# target to preprocess a source file
+src\server.cpp.i:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\server.cpp.i
+.PHONY : src\server.cpp.i
+
+src\server.s: src\server.cpp.s
+
+.PHONY : src\server.s
+
+# target to generate assembly for a file
+src\server.cpp.s:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\server.cpp.s
+.PHONY : src\server.cpp.s
+
+src\utils.obj: src\utils.cpp.obj
+
+.PHONY : src\utils.obj
+
+# target to build an object file
+src\utils.cpp.obj:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\utils.cpp.obj
+.PHONY : src\utils.cpp.obj
+
+src\utils.i: src\utils.cpp.i
+
+.PHONY : src\utils.i
+
+# target to preprocess a source file
+src\utils.cpp.i:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\utils.cpp.i
+.PHONY : src\utils.cpp.i
+
+src\utils.s: src\utils.cpp.s
+
+.PHONY : src\utils.s
+
+# target to generate assembly for a file
+src\utils.cpp.s:
+	$(MAKE) -f CMakeFiles\domothink.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\domothink.dir\src\utils.cpp.s
+.PHONY : src\utils.cpp.s
 
 # Help Target
 help:
@@ -244,18 +268,21 @@ help:
 	@echo ... domothink
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Server/exception.obj
-	@echo ... Server/exception.i
-	@echo ... Server/exception.s
-	@echo ... Server/main.obj
-	@echo ... Server/main.i
-	@echo ... Server/main.s
-	@echo ... Server/server.obj
-	@echo ... Server/server.i
-	@echo ... Server/server.s
-	@echo ... Server/utils.obj
-	@echo ... Server/utils.i
-	@echo ... Server/utils.s
+	@echo ... src/api/PostgreSQL/src/postgre.obj
+	@echo ... src/api/PostgreSQL/src/postgre.i
+	@echo ... src/api/PostgreSQL/src/postgre.s
+	@echo ... src/exception.obj
+	@echo ... src/exception.i
+	@echo ... src/exception.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
+	@echo ... src/server.obj
+	@echo ... src/server.i
+	@echo ... src/server.s
+	@echo ... src/utils.obj
+	@echo ... src/utils.i
+	@echo ... src/utils.s
 .PHONY : help
 
 

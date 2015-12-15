@@ -1,8 +1,8 @@
 #ifndef		EXCEPTION_HPP_
 # define	EXCEPTION_HPP_
 
+#include <stdexcept>
 #include <string>
-#include <exception>
 
 class Exception : public std::exception {
 private:
@@ -15,4 +15,4 @@ public:
   virtual const char* getMessage() const throw();
 };
 
-#endif          /* !EXCEPTION_HPP_ */
+#endif	/* !EXCEPTION_HPP_ */

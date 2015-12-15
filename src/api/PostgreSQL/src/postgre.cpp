@@ -1,4 +1,4 @@
-#include "../include/postgre.hpp"
+#include "postgre.hpp"
 
 Postgre::Postgre(char *dbname, char *user, char *password, char *host, char *port) {
 
@@ -22,7 +22,7 @@ Postgre::Postgre(char *dbname, char *user, char *password, char *host, char *por
 
 
 Postgre::~Postgre() {
-  
+
   free(this->DbName_);
   free(this->User_);
   free(this->Passwd_);
@@ -58,7 +58,7 @@ void		Postgre::run() {
   } else
     std::cout << "Connection to database : Ok" << std::endl;
 
-  
+
 
 
 
@@ -128,7 +128,7 @@ bool		Postgre::setConninfo() {
   if ((this->conninfo = (char *)malloc(sizeof(char *) * 4096)) == NULL)
     return false;
   strcpy(this->conninfo, "host=127.0.0.1 user=eip password=eip dbname=");
-  
+
   int i = 0;
   while (this->conninfo[i] != '\0')
     i++;
