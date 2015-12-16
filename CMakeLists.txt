@@ -44,7 +44,7 @@ include_directories(Server/include)
 # add_executable take the name of the executable produce and the sources
 add_executable(${NAME} ${SRC})
 
-# passed flag for the linker
+# This command passed flag for the linker
 target_link_libraries(${NAME}	-lboost_filesystem
 								-lboost_system
 								-lboost_thread
