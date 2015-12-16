@@ -27,7 +27,7 @@ project(domothink
 # TEST
 # TODO : at the end delete the line
 # Turn to ON to see the command line CMake produces
-#set(CMAKE_VERBOSE_MAKEFILE ON)
+set(CMAKE_VERBOSE_MAKEFILE ON)
 
 # Create a NAME variable which store the name of the executable
 SET(NAME domothink)
@@ -43,16 +43,30 @@ find_package(Boost 1.59.0 REQUIRED
              filesystem system thread unit_test_framework)
 
 # Check for the presence of the PostgreSQL libraries
-#set(PostgreSQL_ROOT deps/PostgreSQL) #TODO: delete line
-find_package(PostgreSQL 9.4.0 REQUIRED)
-if (WIN32)
-set(PostgreSQL_LIBRARIES "/Program Files (x86)/PostgreSQL/9.4/lib/libpq.lib")
-endif (WIN32)
+if ("${DB}" STREQUAL PostgreSQL)
+				find_package(PostgreSQL 9.4.5 REQUIRED)
+				if (WIN32)
+								set(PostgreSQL_LIBRARIES "/Program Files (x86)/PostgreSQL/9.4/lib/libpq.lib")
+				endif (WIN32)
+endif()
 
 # TODO: finish package MySQL
 #find_package(MySQL REQUIRED
 #             cxx_connector 1.1.6)
-set(MySQL_LIBRARIES "/Program Files (x86)/MySQL/MySQL Connector C++ 1.1.6/lib/opt/mysqlcppconn.lib")
+if ("${DB}" STREQUAL MySQL)
+				if (UNIX)
+								set(MySQL_LIBRARIES mysqlcppconn)
+				elseif (WIN32)
+								set(MySQL_LIBRARIES "/Program Files (x86)/MySQL/MySQL Connector C++ 1.1.6/lib/opt/mysqlcppconn.lib")
+				endif(UNIX)
+				set(MySQL_FOUND TRUE)
+endif ()
+
+if (MySQL_FOUND)
+				set(DB_LIBRARIES ${MySQL_LIBRARIES})
+elseif (PostgreSQL_FOUND)
+				set(DB_LIBRARIES ${PostgreSQL_LIBRARIES})
+endif (MySQL_FOUND)
 
 ###########
 # Sources #
@@ -122,17 +136,7 @@ include_directories(${DB_PATH}/include)
 add_executable(${NAME} ${SRC})
 
 # passed flag for the linker
-if (UNIX)
-    target_link_libraries(${NAME}	${Boost_LIBRARIES}) #TODO: test on Linux, if works refacto the if - elseif
-                                    #-lboost_filesystem
-                                    #-lboost_system
-                                    #-lboost_thread
-                                    #-lpthread)
-elseif (WIN32)
-    target_link_libraries(${NAME}   ${Boost_LIBRARIES}
-                                    ${PostgreSQL_LIBRARIES}
-                                    ${MySQL_LIBRARIES}
-                                    )
-                                    #test/mysql/mysql-connector-c++-1.1.6/libmysqlcppconn/mysqlcppconn
-endif (UNIX)
+target_link_libraries(${NAME}   ${Boost_LIBRARIES}
+                                ${DB_LIBRARIES}
+																)
 

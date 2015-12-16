@@ -1,0 +1,20 @@
+cppcheck --enable=all
+
+# --enable
+# Enable additionnal check
+# here all the check will be enable
+
+#--includes-files=$filename
+# This option take a file which contains the name of the path of the header file.
+# One path per line.
+
+#-j $jobs
+# Start $jobs thread to do the check. (4?)
+
+#--language=c++
+# Forces cppcheck to check if all files as the given language (here c++)
+
+#--std=c++11
+# Enable by default.
+# No option for c++14
+

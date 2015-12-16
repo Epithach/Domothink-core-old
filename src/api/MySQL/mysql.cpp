@@ -3,7 +3,7 @@
 
 #include "mysql-connector-c++-1.1.6/driver/mysql_connection.h"
 
-#include "mySql.h"
+#include "mysql.h"
 
 #include <cppconn/driver.h>
 #include <cppconn/exception.h>
