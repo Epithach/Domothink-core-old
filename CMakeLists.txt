@@ -43,7 +43,11 @@ find_package(Boost 1.59.0 REQUIRED
              filesystem system thread unit_test_framework)
 
 # Check for the presence of the PostgreSQL libraries
+set(PostgreSQL_ROOT deps/PostgreSQL)
 find_package(PostgreSQL 9.4.0 REQUIRED)
+if (WIN32)
+set(PostgreSQL_LIBRARIES "/Program Files (x86)/PostgreSQL/9.4/lib/libpq.lib")
+endif (WIN32)
 
 ###########
 # Sources #
@@ -107,8 +111,7 @@ if (UNIX)
                                     -lboost_thread
                                     -lpthread)
 elseif (WIN32)
-    target_link_libraries(${NAME}
-                                    ${Boost_LIBRARIES}
+    target_link_libraries(${NAME}   ${Boost_LIBRARIES}
                                     ${PostgreSQL_LIBRARIES}
                                     )
                                     #test/mysql/mysql-connector-c++-1.1.6/libmysqlcppconn/mysqlcppconn
