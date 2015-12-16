@@ -43,11 +43,16 @@ find_package(Boost 1.59.0 REQUIRED
              filesystem system thread unit_test_framework)
 
 # Check for the presence of the PostgreSQL libraries
-set(PostgreSQL_ROOT deps/PostgreSQL)
+#set(PostgreSQL_ROOT deps/PostgreSQL) #TODO: delete line
 find_package(PostgreSQL 9.4.0 REQUIRED)
 if (WIN32)
 set(PostgreSQL_LIBRARIES "/Program Files (x86)/PostgreSQL/9.4/lib/libpq.lib")
 endif (WIN32)
+
+# TODO: finish package MySQL
+#find_package(MySQL REQUIRED
+#             cxx_connector 1.1.6)
+set(MySQL_LIBRARIES "/Program Files (x86)/MySQL/MySQL Connector C++ 1.1.6/lib/opt/mysqlcppconn.lib")
 
 ###########
 # Sources #
@@ -66,10 +71,15 @@ set(API_PATH ${SRC_PATH}/api)
 
 set(DB_PATH ${API_PATH}/db)
 
-if (PostgreSQL_FOUND)
-    set(DB_PATH ${API_PATH}/PostgreSQL)
-    set(DB_SRC ${DB_PATH}/src/postgre.cpp)
-endif (PostgreSQL_FOUND)
+#if (PostgreSQL_FOUND)
+#    set(DB_PATH ${API_PATH}/PostgreSQL)
+#    set(DB_SRC ${DB_PATH}/src/postgre.cpp)
+#endif (PostgreSQL_FOUND)
+
+#if (MySQL_FOUND)
+set(DB_PATH ${API_PATH}/MySQL)
+set(DB_SRC ${DB_PATH}/mysql.cpp)
+#
 
 set(SRC ${SERVER_SRC} ${DB_SRC})
 
@@ -93,7 +103,14 @@ add_definitions(-D BOOST_ALL_NO_LIB)
 
 # Add include directories to the INCLUDE_DIRECTORIES variable
 include_directories(${Boost_INCLUDE_DIRS})
-include_directories(${PostgreSQL_INCLUDE_DIRS})
+if (PostgreSQL_FOUND)
+    include_directories(${PostgreSQL_INCLUDE_DIRS})
+endif (PostgreSQL_FOUND)
+# if (MySQL_FOUND)
+if (WIN32)
+    include_directories("/Program Files (x86)/MySQL/MySQL Connector C++ 1.1.6/include") # TODO: uncomment condition
+endif(WIN32)
+# endif (MySQL_FOUND)
 include_directories(${SERVER_PATH}/include)
 include_directories(${DB_PATH}/include)
 
@@ -106,13 +123,15 @@ add_executable(${NAME} ${SRC})
 
 # passed flag for the linker
 if (UNIX)
-    target_link_libraries(${NAME}	-lboost_filesystem
-                                    -lboost_system
-                                    -lboost_thread
-                                    -lpthread)
+    target_link_libraries(${NAME}	${Boost_LIBRARIES}) #TODO: test on Linux, if works refacto the if - elseif
+                                    #-lboost_filesystem
+                                    #-lboost_system
+                                    #-lboost_thread
+                                    #-lpthread)
 elseif (WIN32)
     target_link_libraries(${NAME}   ${Boost_LIBRARIES}
                                     ${PostgreSQL_LIBRARIES}
+                                    ${MySQL_LIBRARIES}
                                     )
                                     #test/mysql/mysql-connector-c++-1.1.6/libmysqlcppconn/mysqlcppconn
 endif (UNIX)
