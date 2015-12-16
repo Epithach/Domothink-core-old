@@ -1,0 +1,1216 @@
+Determining size of __int8 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec504949234/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec504949234.dir/build.make CMakeFiles/cmTryCompileExec504949234.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec504949234.dir/HAVE_MS_INT8.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec504949234.dir/HAVE_MS_INT8.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c:17:22: error: ‘__int8’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int8))
+                      ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec504949234.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec504949234.dir/HAVE_MS_INT8.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec504949234.dir/HAVE_MS_INT8.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec504949234/fast' failed
+make: *** [cmTryCompileExec504949234/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int8 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1887146390/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1887146390.dir/build.make CMakeFiles/cmTryCompileExec1887146390.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1887146390.dir/HAVE_MS_UINT8.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1887146390.dir/HAVE_MS_UINT8.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+CMakeFiles/cmTryCompileExec1887146390.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1887146390.dir/HAVE_MS_UINT8.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1887146390.dir/HAVE_MS_UINT8.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1887146390/fast' failed
+make: *** [cmTryCompileExec1887146390/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int16 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2917599247/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2917599247.dir/build.make CMakeFiles/cmTryCompileExec2917599247.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2917599247.dir/HAVE_MS_INT16.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2917599247.dir/HAVE_MS_INT16.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c:17:22: error: ‘__int16’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int16))
+                      ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec2917599247.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2917599247.dir/HAVE_MS_INT16.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2917599247.dir/HAVE_MS_INT16.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2917599247/fast' failed
+make: *** [cmTryCompileExec2917599247/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3337996541/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3337996541.dir/build.make CMakeFiles/cmTryCompileExec3337996541.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3337996541.dir/HAVE_MS_UINT16.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3337996541.dir/HAVE_MS_UINT16.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+CMakeFiles/cmTryCompileExec3337996541.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3337996541.dir/HAVE_MS_UINT16.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3337996541.dir/HAVE_MS_UINT16.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3337996541/fast' failed
+make: *** [cmTryCompileExec3337996541/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2756560009/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2756560009.dir/build.make CMakeFiles/cmTryCompileExec2756560009.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2756560009.dir/HAVE_MS_INT32.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2756560009.dir/HAVE_MS_INT32.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c:17:22: error: ‘__int32’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int32))
+                      ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec2756560009.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2756560009.dir/HAVE_MS_INT32.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2756560009.dir/HAVE_MS_INT32.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2756560009/fast' failed
+make: *** [cmTryCompileExec2756560009/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int32 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1464971366/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1464971366.dir/build.make CMakeFiles/cmTryCompileExec1464971366.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1464971366.dir/HAVE_MS_UINT32.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1464971366.dir/HAVE_MS_UINT32.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+CMakeFiles/cmTryCompileExec1464971366.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1464971366.dir/HAVE_MS_UINT32.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1464971366.dir/HAVE_MS_UINT32.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1464971366/fast' failed
+make: *** [cmTryCompileExec1464971366/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec917129897/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec917129897.dir/build.make CMakeFiles/cmTryCompileExec917129897.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec917129897.dir/HAVE_MS_INT64.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec917129897.dir/HAVE_MS_INT64.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec917129897.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec917129897.dir/HAVE_MS_INT64.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec917129897.dir/HAVE_MS_INT64.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec917129897/fast' failed
+make: *** [cmTryCompileExec917129897/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int64 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3822198701/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3822198701.dir/build.make CMakeFiles/cmTryCompileExec3822198701.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3822198701.dir/HAVE_MS_UINT64.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3822198701.dir/HAVE_MS_UINT64.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+CMakeFiles/cmTryCompileExec3822198701.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3822198701.dir/HAVE_MS_UINT64.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3822198701.dir/HAVE_MS_UINT64.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3822198701/fast' failed
+make: *** [cmTryCompileExec3822198701/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int8 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1546245026/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1546245026.dir/build.make CMakeFiles/cmTryCompileExec1546245026.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1546245026.dir/HAVE_MS_INT8.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1546245026.dir/HAVE_MS_INT8.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c:17:22: error: ‘__int8’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int8))
+                      ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec1546245026.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1546245026.dir/HAVE_MS_INT8.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1546245026.dir/HAVE_MS_INT8.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1546245026/fast' failed
+make: *** [cmTryCompileExec1546245026/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int8 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3592709487/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3592709487.dir/build.make CMakeFiles/cmTryCompileExec3592709487.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3592709487.dir/HAVE_MS_UINT8.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3592709487.dir/HAVE_MS_UINT8.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:17:31: error: expected ‘)’ before ‘__int8’
+ #define SIZE (sizeof(unsigned __int8))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+CMakeFiles/cmTryCompileExec3592709487.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3592709487.dir/HAVE_MS_UINT8.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3592709487.dir/HAVE_MS_UINT8.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3592709487/fast' failed
+make: *** [cmTryCompileExec3592709487/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int16 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3723972528/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3723972528.dir/build.make CMakeFiles/cmTryCompileExec3723972528.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3723972528.dir/HAVE_MS_INT16.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3723972528.dir/HAVE_MS_INT16.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c:17:22: error: ‘__int16’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int16))
+                      ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec3723972528.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3723972528.dir/HAVE_MS_INT16.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3723972528.dir/HAVE_MS_INT16.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3723972528/fast' failed
+make: *** [cmTryCompileExec3723972528/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec966892229/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec966892229.dir/build.make CMakeFiles/cmTryCompileExec966892229.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec966892229.dir/HAVE_MS_UINT16.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec966892229.dir/HAVE_MS_UINT16.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:17:31: error: expected ‘)’ before ‘__int16’
+ #define SIZE (sizeof(unsigned __int16))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+CMakeFiles/cmTryCompileExec966892229.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec966892229.dir/HAVE_MS_UINT16.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec966892229.dir/HAVE_MS_UINT16.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec966892229/fast' failed
+make: *** [cmTryCompileExec966892229/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int32 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3831405874/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3831405874.dir/build.make CMakeFiles/cmTryCompileExec3831405874.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3831405874.dir/HAVE_MS_INT32.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3831405874.dir/HAVE_MS_INT32.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c:17:22: error: ‘__int32’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int32))
+                      ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec3831405874.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3831405874.dir/HAVE_MS_INT32.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3831405874.dir/HAVE_MS_INT32.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3831405874/fast' failed
+make: *** [cmTryCompileExec3831405874/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int32 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec326099678/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec326099678.dir/build.make CMakeFiles/cmTryCompileExec326099678.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec326099678.dir/HAVE_MS_UINT32.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec326099678.dir/HAVE_MS_UINT32.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:17:31: error: expected ‘)’ before ‘__int32’
+ #define SIZE (sizeof(unsigned __int32))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+CMakeFiles/cmTryCompileExec326099678.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec326099678.dir/HAVE_MS_UINT32.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec326099678.dir/HAVE_MS_UINT32.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec326099678/fast' failed
+make: *** [cmTryCompileExec326099678/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3520658937/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3520658937.dir/build.make CMakeFiles/cmTryCompileExec3520658937.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3520658937.dir/HAVE_MS_INT64.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3520658937.dir/HAVE_MS_INT64.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c:17:22: error: ‘__int64’ undeclared here (not in a function)
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec3520658937.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3520658937.dir/HAVE_MS_INT64.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3520658937.dir/HAVE_MS_INT64.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3520658937/fast' failed
+make: *** [cmTryCompileExec3520658937/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of unsigned __int64 failed with the following output:
+Change Dir: /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3487906063/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3487906063.dir/build.make CMakeFiles/cmTryCompileExec3487906063.dir/build
+make[1]: Entering directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3487906063.dir/HAVE_MS_UINT64.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3487906063.dir/HAVE_MS_UINT64.c.o   -c /home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:20:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 1000)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:21:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 100)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:22:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10)%10)),
+            ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:17:31: error: expected ‘)’ before ‘__int64’
+ #define SIZE (sizeof(unsigned __int64))
+                               ^
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:23:12: note: in expansion of macro ‘SIZE’
+   ('0' +  (SIZE    % 10)),
+            ^
+CMakeFiles/cmTryCompileExec3487906063.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3487906063.dir/HAVE_MS_UINT64.c.o' failed
+make[1]: Leaving directory '/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3487906063.dir/HAVE_MS_UINT64.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3487906063/fast' failed
+make: *** [cmTryCompileExec3487906063/fast] Error 2
+
+/home/astyr/Documents/EIP---HTTPS_SRV/test/mysql/mysql-connector-c++-1.1.6/CMakeFiles/CheckTypeSize/HAVE_MS_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
