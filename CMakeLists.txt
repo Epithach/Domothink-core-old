@@ -30,7 +30,10 @@ project(domothink
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
 # Create a NAME variable which store the name of the executable
-SET(NAME domothink)
+set(NAME domothink)
+
+# The name of the API library
+set(API_NAME libdomothink)
 
 ################
 # Dependencies #
@@ -44,28 +47,28 @@ find_package(Boost 1.59.0 REQUIRED
 
 # Check for the presence of the PostgreSQL libraries
 if ("${DB}" STREQUAL PostgreSQL)
-				find_package(PostgreSQL 9.4.5 REQUIRED)
-				if (WIN32)
-								set(PostgreSQL_LIBRARIES "/Program Files (x86)/PostgreSQL/9.4/lib/libpq.lib")
-				endif (WIN32)
+	find_package(PostgreSQL 9.4.5 REQUIRED)
+    if (WIN32)
+		set(PostgreSQL_LIBRARIES "/Program Files (x86)/PostgreSQL/9.4/lib/libpq.lib")
+	endif (WIN32)
 endif()
 
 # TODO: finish package MySQL
 #find_package(MySQL REQUIRED
 #             cxx_connector 1.1.6)
 if ("${DB}" STREQUAL MySQL)
-				if (UNIX)
-								set(MySQL_LIBRARIES mysqlcppconn)
-				elseif (WIN32)
-								set(MySQL_LIBRARIES "/Program Files (x86)/MySQL/MySQL Connector C++ 1.1.6/lib/opt/mysqlcppconn.lib")
-				endif(UNIX)
-				set(MySQL_FOUND TRUE)
+    if (UNIX)
+		set(MySQL_LIBRARIES mysqlcppconn)
+	elseif (WIN32)
+		set(MySQL_LIBRARIES "/Program Files (x86)/MySQL/MySQL Connector C++ 1.1.6/lib/opt/mysqlcppconn.lib")
+	endif(UNIX)
+	set(MySQL_FOUND TRUE)
 endif ()
 
 if (MySQL_FOUND)
-				set(DB_LIBRARIES ${MySQL_LIBRARIES})
+    set(DB_LIBRARIES ${MySQL_LIBRARIES})
 elseif (PostgreSQL_FOUND)
-				set(DB_LIBRARIES ${PostgreSQL_LIBRARIES})
+	set(DB_LIBRARIES ${PostgreSQL_LIBRARIES})
 endif (MySQL_FOUND)
 
 ###########
@@ -85,15 +88,15 @@ set(API_PATH ${SRC_PATH}/api)
 
 set(DB_PATH ${API_PATH}/db)
 
-#if (PostgreSQL_FOUND)
-#    set(DB_PATH ${API_PATH}/PostgreSQL)
-#    set(DB_SRC ${DB_PATH}/src/postgre.cpp)
-#endif (PostgreSQL_FOUND)
+if (PostgreSQL_FOUND)
+    set(DB_PATH ${API_PATH}/PostgreSQL)
+    set(DB_SRC ${DB_PATH}/src/postgre.cpp)
+endif (PostgreSQL_FOUND)
 
-#if (MySQL_FOUND)
+if (MySQL_FOUND)
 set(DB_PATH ${API_PATH}/MySQL)
 set(DB_SRC ${DB_PATH}/mysql.cpp)
-#
+endif (MySQL_FOUND)
 
 set(SRC ${SERVER_SRC} ${DB_SRC})
 
@@ -117,14 +120,17 @@ add_definitions(-D BOOST_ALL_NO_LIB)
 
 # Add include directories to the INCLUDE_DIRECTORIES variable
 include_directories(${Boost_INCLUDE_DIRS})
+
 if (PostgreSQL_FOUND)
     include_directories(${PostgreSQL_INCLUDE_DIRS})
 endif (PostgreSQL_FOUND)
-# if (MySQL_FOUND)
-if (WIN32)
-    include_directories("/Program Files (x86)/MySQL/MySQL Connector C++ 1.1.6/include") # TODO: uncomment condition
-endif(WIN32)
-# endif (MySQL_FOUND)
+
+if (MySQL_FOUND)
+    if (WIN32)
+        include_directories("/Program Files (x86)/MySQL/MySQL Connector C++ 1.1.6/include")
+    endif(WIN32)
+endif (MySQL_FOUND)
+
 include_directories(${SERVER_PATH}/include)
 include_directories(${DB_PATH}/include)
 
@@ -132,11 +138,16 @@ include_directories(${DB_PATH}/include)
 # Build rules #
 ###############
 
+# Create the API shared library
+add_library(${API_NAME} SHARED ${DB_SRC})
+
+# Link the api shared library and passed flag for the linker
+target_link_libraries(${API_NAME}   ${DB_LIBRARIES})
+
 # add_executable take the name of the executable produce and the sources
 add_executable(${NAME} ${SRC})
 
-# passed flag for the linker
+# Link the domothink executable and passed flag for the linker
 target_link_libraries(${NAME}   ${Boost_LIBRARIES}
                                 ${DB_LIBRARIES}
-																)
-
+								)
