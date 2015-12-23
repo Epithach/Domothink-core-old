@@ -27,13 +27,13 @@ project(domothink
 # TEST
 # TODO : at the end delete the line
 # Turn to ON to see the command line CMake produces
-set(CMAKE_VERBOSE_MAKEFILE ON)
+#set(CMAKE_VERBOSE_MAKEFILE ON)
 
 # Create a NAME variable which store the name of the executable
 set(NAME domothink)
 
 # The name of the API library
-set(API_NAME libdomothink)
+set(API_NAME domothink_api)
 
 ################
 # Dependencies #
@@ -86,16 +86,14 @@ set(SERVER_SRC  src/exception.cpp
 
 set(API_PATH ${SRC_PATH}/api)
 
-set(DB_PATH ${API_PATH}/db)
-
 if (PostgreSQL_FOUND)
     set(DB_PATH ${API_PATH}/PostgreSQL)
     set(DB_SRC ${DB_PATH}/src/postgre.cpp)
 endif (PostgreSQL_FOUND)
 
 if (MySQL_FOUND)
-set(DB_PATH ${API_PATH}/MySQL)
-set(DB_SRC ${DB_PATH}/mysql.cpp)
+    set(DB_PATH ${API_PATH}/MySQL)
+    set(DB_SRC ${DB_PATH}/mysql.cpp)
 endif (MySQL_FOUND)
 
 set(SRC ${SERVER_SRC} ${DB_SRC})
@@ -104,6 +102,8 @@ set(SRC ${SERVER_SRC} ${DB_SRC})
 # Compilation rules #
 #####################
 
+# TODO : delete this
+add_compile_options(-g)                # Specify C++ version
 # add_compile_options add flags for compilation
 if (UNIX)
     add_compile_options(-W -Wall -Wextra -Werror)   # Warning for g++ / clang++
@@ -132,7 +132,7 @@ if (MySQL_FOUND)
 endif (MySQL_FOUND)
 
 include_directories(${SERVER_PATH}/include)
-include_directories(${DB_PATH}/include)
+include_directories(${DB_PATH})
 
 ###############
 # Build rules #

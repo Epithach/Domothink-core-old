@@ -1,8 +1,8 @@
-//#pragma once
+#ifndef		MYSQL_H_
+# define	MYSQL_H_
+
 #include <stdlib.h>
 #include <iostream>
-
-#include "mysql-connector-c++-1.1.6/driver/mysql_connection.h"
 
 #include <cppconn/driver.h>
 #include <cppconn/exception.h>
@@ -31,11 +31,12 @@ class MySQLdataBase {
 
 	sql::Driver				*driver;
 	sql::Connection			*con = NULL;
-	//sql::Statement		*stmt;
+	sql::Statement		*stmt;
 	sql::PreparedStatement  *prep_stmt;
-	//sql::ResultSet		*res;
+	sql::ResultSet		*res;
 
 public:
+
 	int connect(void)
 	{
 		/* Create a connection */
@@ -43,11 +44,11 @@ public:
 		this->con = driver->connect("tcp://127.0.0.1:3306", "root", "root");
 		
 		/* Connect to the MySQL test database */
-		this->con->setSchema("schema_test");
+		this->con->setSchema("ta");
 
 		/* Code in order to test your connection with the database */
 		/*stmt = con->createStatement();
-		res = stmt->executeQuery("SELECT name AS _name FROM schema_test.table_test"); // replace with your statement
+		res = stmt->executeQuery("SELECT name AS _name FROM user"); // replace with your statement
 
 		while (res->next()) {
 		cout << "\t... MySQL replies: ";
@@ -107,4 +108,45 @@ public:
 		return 0;
 	}
 
+	const string &&	fetch(const string && request)
+	{
+		std::string resultString("");
+
+		if (this->con == nullptr) {
+			return std::move(resultString);
+		}
+
+		this->stmt = con->createStatement();
+		res = stmt->executeQuery(request); // replace with your statement
+
+		while (res->next()) {
+			// Access column data by alias or column name
+			resultString = res->getString(2);
+		}
+
+		delete res;
+		res = nullptr;
+		delete stmt;
+		stmt = nullptr;
+		return std::move(resultString);
+	}
+
+
+	bool hasUser(const string & name, const string & password)
+	{
+		std::string 	request("SELECT * FROM user WHERE user.name = '" + name + "' AND user.password = '" + password + "'");
+		std::string 	resultString("");
+		bool 		userExist(false);
+
+		resultString = fetch(std::move(request));
+		if (resultString == name)
+		{
+			userExist = true;
+		}
+		return userExist;
+	}
+
 };
+
+#endif	/* !MYSQL_H_ */
+

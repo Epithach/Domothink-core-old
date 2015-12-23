@@ -19,6 +19,7 @@ int test_main(void)
 
   base.connect();
   base.insertElem();
+  base.hasUser("guenno_v", "1234");
   base.disconnect();
 	return 0;
 }
