@@ -3,6 +3,7 @@
 #include "exception.h"
 #include "server.h"
 #include "utils.h"
+#include "mysql.h"
 
 // Include used to test the mySQL connectors -> can be removed if needed
 //#include "../test/mysql/mySql.h"
@@ -16,17 +17,6 @@ int		main(int ac, char *av[]) {
     std::cerr << "Usage : server [Port]" << std::endl;
     return (-1);
   }
-  Server	server(my_atoi(av[1]));
-  try {
-    server.run();
-  } catch (const Exception &e)
-    {
-      std::cerr << "Une erreur est survenue :" << std::endl
-      << e.getMessage() << std::endl;
-    }
-
-
-
 	// Code used to test the mySQL connectors -> can be removed if needed
 	/* MySQLdataBase base;
 
@@ -34,6 +24,20 @@ int		main(int ac, char *av[]) {
 	base.insertElem();
 	base.deleteElem();
 	base.disconnect();
-	*/
+*/
   return 0;
 }
+
+/*
+Server	server(my_atoi(av[1]));
+try {
+  server.run();
+} catch (const Exception &e)
+  {
+    std::cerr << "Une erreur est survenue :" << std::endl
+    << e.getMessage() << std::endl;
+  }
+
+
+
+*/

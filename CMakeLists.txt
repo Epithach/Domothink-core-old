@@ -27,7 +27,7 @@ project(domothink
 # TEST
 # TODO : at the end delete the line
 # Turn to ON to see the command line CMake produces
-set(CMAKE_VERBOSE_MAKEFILE ON)
+#set(CMAKE_VERBOSE_MAKEFILE ON)
 
 # Create a NAME variable which store the name of the executable
 set(NAME domothink)
@@ -109,8 +109,9 @@ if (UNIX)
     add_compile_options(-W -Wall -Wextra -Werror)   # Warning for g++ / clang++
     add_compile_options(--std=c++14)                # Specify C++ version
 elseif (WIN32)
-    add_compile_options(/Wall)  # Warning for cl
+#    add_compile_options(/Wall)  # Warning for cl
     add_compile_options(/EHsc)  # Enable exception handling
+    add_compile_options(/D_WIN32_WINNT=0x501)
 endif (UNIX)
 
 # Disable auto linking for the boost libraries.
@@ -132,7 +133,7 @@ if (MySQL_FOUND)
 endif (MySQL_FOUND)
 
 include_directories(${SERVER_PATH}/include)
-include_directories(${DB_PATH}/include)
+include_directories(${DB_PATH})
 
 ###############
 # Build rules #
@@ -148,6 +149,6 @@ target_link_libraries(${API_NAME}   ${DB_LIBRARIES})
 add_executable(${NAME} ${SRC})
 
 # Link the domothink executable and passed flag for the linker
-target_link_libraries(${NAME}   ${Boost_LIBRARIES}
+target_link_libraries(${NAME}  ${Boost_LIBRARIES}
                                 ${DB_LIBRARIES}
 								)
