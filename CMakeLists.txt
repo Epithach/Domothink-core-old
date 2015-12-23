@@ -86,17 +86,20 @@ set(SERVER_SRC  src/exception.cpp
 
 set(API_PATH ${SRC_PATH}/api)
 
+set(DB_PATH ${API_PATH}/db)
+set(DB_SRC ${DB_PATH})
+
 if (PostgreSQL_FOUND)
-    set(DB_PATH ${API_PATH}/PostgreSQL)
-    set(DB_SRC ${DB_PATH}/src/postgre.cpp)
+    set(SQL_PATH ${DB_PATH}/PostgreSQL)
+    set(SQL_SRC ${SQL_PATH}/postgre.cpp)
 endif (PostgreSQL_FOUND)
 
 if (MySQL_FOUND)
-    set(DB_PATH ${API_PATH}/MySQL)
-    set(DB_SRC ${DB_PATH}/mysql.cpp)
+    set(SQL_PATH ${DB_PATH}/MySQL)
+    set(SQL_SRC ${SQL_PATH}/mysql.cpp)
 endif (MySQL_FOUND)
 
-set(SRC ${SERVER_SRC} ${DB_SRC})
+set(SRC ${SERVER_SRC} ${DB_SRC} ${SQL_SRC})
 
 #####################
 # Compilation rules #
@@ -104,19 +107,22 @@ set(SRC ${SERVER_SRC} ${DB_SRC})
 
 # TODO : delete this
 add_compile_options(-g)                # Specify C++ version
+
 # add_compile_options add flags for compilation
 if (UNIX)
     add_compile_options(-W -Wall -Wextra -Werror)   # Warning for g++ / clang++
     add_compile_options(--std=c++14)                # Specify C++ version
 elseif (WIN32)
-    add_compile_options(/Wall)  # Warning for cl
+#    add_compile_options(/Wall)  # Warning for cl
     add_compile_options(/EHsc)  # Enable exception handling
-endif (UNIX)
+    add_compile_options(/D_WIN32_WINNT=0x501)
 
 # Disable auto linking for the boost libraries.
 # Without this definition, compiler (at least cl.exe) cannot link the Boost
 # libraries.
-add_definitions(-D BOOST_ALL_NO_LIB)
+	add_definitions(-D BOOST_ALL_NO_LIB)
+
+endif (UNIX)
 
 # Add include directories to the INCLUDE_DIRECTORIES variable
 include_directories(${Boost_INCLUDE_DIRS})
@@ -133,21 +139,24 @@ endif (MySQL_FOUND)
 
 include_directories(${SERVER_PATH}/include)
 include_directories(${DB_PATH})
+include_directories(${SQL_PATH})
 
 ###############
 # Build rules #
 ###############
 
+# TODO : delete if change web api design
 # Create the API shared library
-add_library(${API_NAME} SHARED ${DB_SRC})
+#add_library(${API_NAME} SHARED ${DB_SRC})
 
+# TODO : delete if change web api design
 # Link the api shared library and passed flag for the linker
-target_link_libraries(${API_NAME}   ${DB_LIBRARIES})
+#target_link_libraries(${API_NAME}   ${DB_LIBRARIES})
 
 # add_executable take the name of the executable produce and the sources
 add_executable(${NAME} ${SRC})
 
 # Link the domothink executable and passed flag for the linker
-target_link_libraries(${NAME}   ${Boost_LIBRARIES}
+target_link_libraries(${NAME}  ${Boost_LIBRARIES}
                                 ${DB_LIBRARIES}
 								)
