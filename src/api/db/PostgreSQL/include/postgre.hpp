@@ -3,21 +3,21 @@
 
 #include <iostream>
 #include <ostream>
-#include <stdlib.h>
+#include <sstream>
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 #include <libpq-fe.h>
 
 class		Postgre {
 private:
-  char		*DbName_;
-  char		*User_;
-  char		*Passwd_;
-  char		*Host_;
+  std::string	DbName_;
+  std::string	User_;
+  std::string	Passwd_;
+  std::string	Host_;
   int		Port_;
 
   PGconn	*conn;
-  char		*conninfo;
+  std::string	conninfo;
 
 public:
   Postgre(char *, char *, char *, char *, char *);
@@ -25,16 +25,16 @@ public:
 
   void		run();
 
-  bool		setConninfo();
-  char		*getConninfo() const;
-  bool		setDbName(char *);
-  char		*getDbName() const;
-  bool		setUser(char *);
-  char		*getUser() const;
-  bool		setPasswd(char *);
-  char		*getPasswd() const;
-  bool		setHost(char *);
-  char		*getHost() const;
+  void		setConninfo();
+  std::string	getConninfo() const;
+  void		setDbName(char *);
+  std::string	getDbName() const;
+  void		setUser(char *);
+  std::string	getUser() const;
+  void		setPasswd(char *);
+  std::string	getPasswd() const;
+  void		setHost(char *);
+  std::string	getHost() const;
   void		setPort(int);
   int		getPort() const;
 };
