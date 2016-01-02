@@ -1,6 +1,8 @@
 #ifndef     IDATABASE_H_
 # define    IDATABASE_H_
 
+#include <cppconn/resultset.h>
+
 #include "DataBaseException.h"
 
 class   IdataBase
@@ -12,7 +14,7 @@ public :
 
     virtual ~IdataBase() {};
 
-    virtual void    connect(const std::string && name, const std::string && password)    throw(DataBaseException) = 0;
+    virtual void    connect(const std::string & name, const std::string & password)    throw(DataBaseException) = 0;
     virtual void    disconnect()   throw(DataBaseException) = 0;
 
     virtual int     insertRow() throw(DataBaseException) = 0;
@@ -26,7 +28,7 @@ public :
 
 private :
 
-    virtual std::string &&   fetch(const std::string && select)   throw(DataBaseException) = 0;
+    virtual sql::ResultSet 	*fetch(const std::string & request)   throw(DataBaseException) = 0;
 
 };  /* !IdataBase */
 

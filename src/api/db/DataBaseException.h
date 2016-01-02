@@ -8,7 +8,7 @@ class   DataBaseException : public std::runtime_error
     
 public :
 
-    explicit    DataBaseException(const std::string & what)  noexcept;
+    DataBaseException(const std::string & what)  noexcept;
 
 };  /* !DataBaseException */
 

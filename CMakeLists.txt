@@ -87,7 +87,7 @@ set(SERVER_SRC  src/exception.cpp
 set(API_PATH ${SRC_PATH}/api)
 
 set(DB_PATH ${API_PATH}/db)
-set(DB_SRC ${DB_PATH})
+set(DB_SRC ${DB_PATH}/DataBaseException.cpp)
 
 if (PostgreSQL_FOUND)
     set(SQL_PATH ${DB_PATH}/PostgreSQL)
@@ -96,7 +96,9 @@ endif (PostgreSQL_FOUND)
 
 if (MySQL_FOUND)
     set(SQL_PATH ${DB_PATH}/MySQL)
-    set(SQL_SRC ${SQL_PATH}/mysql.cpp)
+    set(SQL_SRC ${SQL_PATH}/mysql.cpp
+				${SQL_PATH}/MySQLException.cpp
+				${SQL_PATH}/mainMySQL.cpp) ## Main de test à delete
 endif (MySQL_FOUND)
 
 set(SRC ${SERVER_SRC} ${DB_SRC} ${SQL_SRC})
