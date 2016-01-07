@@ -1,33 +1,23 @@
-#include "postgre.hpp"
+#include "../include/postgre.hpp"
 
 Postgre::Postgre(char *dbname, char *user, char *password, char *host, char *port) {
 
-  if (setDbName(dbname) == false)
-    throw ;
+  setDbName(dbname);
   std::cout << "DbName : " <<this->DbName_ << std::endl;
-  if (setUser(user) == false)
-    throw ;
+  setUser(user);
   std::cout << "User : " <<this->User_ << std::endl;
-  if (setPasswd(password) == false)
-    throw ;
+  setPasswd(password);
   std::cout << "Passwd : " <<this->Passwd_ << std::endl;
-  if (setHost(host) == false)
-    throw ;
+  setHost(host);
   std::cout << "Host : " <<this->Host_ << std::endl;
   setPort(atoi(port));
   std::cout << "Port : " <<this->Port_ << std::endl;
-
+    
   std::cout << "Constructor : Ok" << std::endl << std::endl;
 }
 
 
 Postgre::~Postgre() {
-
-  free(this->DbName_);
-  free(this->User_);
-  free(this->Passwd_);
-  free(this->Host_);
-
   std::cout << std::endl << "Destructor : Ok" << std::endl;
 }
 
@@ -38,15 +28,13 @@ void		Postgre::run() {
   /**
    * Convert our DbName_ to be readable by PQconnectdb
    */
-  if (setConninfo() == false)
-    throw ;
-  else
-    std::cout << "Conninfo : " << this->conninfo << std::endl;
+  setConninfo();
+  std::cout << "Conninfo : " << this->conninfo << std::endl;
 
   /**
    * Connection to the database
    */
-  this->conn = PQconnectdb(getConninfo());
+  this->conn = PQconnectdb((getConninfo()).c_str());
 
   /**
    * Checking if the connection is Ok
@@ -57,59 +45,43 @@ void		Postgre::run() {
     throw ;
   } else
     std::cout << "Connection to database : Ok" << std::endl;
-
-
-
-
-
-
-
-
-
+  
   return ;
 }
 
-bool		Postgre::setDbName(char *db) {
-  if ((this->DbName_ = (char *)malloc(sizeof(char *) * 4096)) == NULL)
-    return false;
-  strcpy(this->DbName_, db);
-  return true;
+void		Postgre::setDbName(char *db) {
+  this->DbName_ = db;
+  return ;
 }
 
-char		*Postgre::getDbName() const  {
+std::string	Postgre::getDbName() const  {
   return this->DbName_;
 }
 
-bool		Postgre::setUser(char *user) {
-  if ((this->User_ = (char *)malloc(sizeof(char *) * 4096)) == NULL)
-    return false;
-  strcpy(this->User_, user);
-  return true;
+void		Postgre::setUser(char *user) {
+  this->User_ = user;
+  return ;
 }
 
-char		*Postgre::getUser() const {
+std::string	Postgre::getUser() const {
   return this->User_;
 }
 
-bool		Postgre::setPasswd(char *pass) {
-  if ((this->Passwd_ = (char *)malloc(sizeof(char *) * 4096)) == NULL)
-    return false;
-  strcpy(this->Passwd_, pass);
-  return true;
+void		Postgre::setPasswd(char *pass) {
+  this->Passwd_ = pass;
+  return ;
 }
 
-char		*Postgre::getPasswd() const {
+std::string	Postgre::getPasswd() const {
   return this->Passwd_;
 }
 
-bool		Postgre::setHost(char *host) {
-  if ((this->Host_ = (char *)malloc(sizeof(char *) * 4096)) == NULL)
-    return false;
-  strcpy(this->Host_, host);
-  return true;
+void		Postgre::setHost(char *host) {
+  this->Host_ = host;
+  return ;
 }
 
-char		*Postgre::getHost() const {
+std::string	Postgre::getHost() const {
   return this->Host_;
 }
 
@@ -121,27 +93,18 @@ int		Postgre::getPort() const {
   return this->Port_;
 }
 
-bool		Postgre::setConninfo() {
-  if (this->DbName_ == NULL)
-    return false;
-
-  if ((this->conninfo = (char *)malloc(sizeof(char *) * 4096)) == NULL)
-    return false;
-  strcpy(this->conninfo, "host=127.0.0.1 user=eip password=eip dbname=");
-
-  int i = 0;
-  while (this->conninfo[i] != '\0')
-    i++;
-
-  int j = 0;
-  while (this->DbName_[j] != '\0') {
-    this->conninfo[i] = this->DbName_[j];
-    i++;
-    j++;
-  }
-  return true;
+void		Postgre::setConninfo() {
+  std::string port;
+  std::ostringstream convert;
+  
+  convert << this->Port_;
+  port = convert.str();
+  this->conninfo = "dbname=" + this->DbName_ + " user=" + this->User_ + " password=" + this->Passwd_;// + " host=" + this->Host_ + " port=" + port;
+  
+  return ;
+  
 }
 
-char		*Postgre::getConninfo() const {
+std::string	Postgre::getConninfo() const {
   return this->conninfo;
 }

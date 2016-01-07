@@ -21,8 +21,8 @@ int		main(int ac, char *av[]) {
 	// Code used to test the mySQL connectors -> can be removed if needed
 	MySQLdataBase base;
 
-	string user("nuss_");
-	base.connect();
+	string user("nuss_m");
+	base.connect("root", "root");
 	if (base.hasUser(user, "1234"))
 	{
 		std::cout << user << " exist !" << std::endl;
