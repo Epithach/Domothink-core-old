@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "./include/server.h"
+#include "server.h"
 
 Server::Server(int port) {
   this->Port_ = port;
